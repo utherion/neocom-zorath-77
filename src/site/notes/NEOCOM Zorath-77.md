@@ -26,6 +26,21 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 @keyframes showText { 0% { opacity: 0; } 99% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes pulseGlow { 0% { opacity: 0.5; box-shadow: 0 0 5px #7DF9FF; } 50% { opacity: 1; box-shadow: 0 0 15px #7DF9FF; } 100% { opacity: 0.5; box-shadow: 0 0 5px #7DF9FF; } }
 
+/* NOUVELLE ANIMATION : LE POULS ROUGE SUR L'ALERTE */
+@keyframes pulseAlert {
+  0%, 100% {
+    border-color: #ff4d4d;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.3);
+    background-color: rgba(30, 0, 0, 0.5);
+  }
+  50% {
+    border-color: #ff0000;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+    background-color: rgba(60, 0, 0, 0.8);
+  }
+}
+.eve-alert-pulse { animation: pulseAlert 2s infinite; }
+
 .sync-bar-container { width: 100%; height: 4px; background: #222; margin-top: 8px; position: relative; overflow: hidden; }
 .sync-bar-fill { height: 100%; background: #7DF9FF; width: 100%; animation: loadingBar 2.5s ease-out forwards; box-shadow: 0 0 10px #7DF9FF; }
 .sync-text-loading { animation: hideText 2.5s forwards; position: absolute; }
@@ -58,7 +73,7 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
   </div>
 </div>
 
-<div style="background: rgba(30, 0, 0, 0.5); border: 1px solid #ff4d4d; border-left: 4px solid #ff4d4d; padding: 18px; margin-bottom: 35px; display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+<div class="eve-alert-pulse" style="border-left: 4px solid #ff4d4d; padding: 18px; margin-bottom: 35px; display: flex; justify-content: space-between; align-items: center; gap: 20px;">
 <div>
 <h3 style="color: #ff4d4d; margin: 0 0 8px 0; font-size: 18px; text-transform: uppercase; letter-spacing: 2px;">⚠ Restricted Access Protocol</h3>
 <p style="font-size: 15px; margin: 0; color: #ccc;">Monitoring active. Any synaptic deviation is logged by the Ministry of Internal Order.</p>
