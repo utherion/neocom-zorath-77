@@ -19,13 +19,16 @@
 
 <h3 style="color: #D4AF37; font-family: 'Courier New', monospace; border-bottom: 1px solid rgba(212, 175, 55, 0.5); padding-bottom: 5px; text-transform: uppercase; letter-spacing: 2px;">🗄️ ASSET FILE :: ZORATH, I.</h3>
 
-<div style="display: flex; gap: 25px; background: linear-gradient(135deg, rgba(20,20,20,0.85) 0%, rgba(40,30,15,0.85) 100%); border: 1px solid #554422; border-left: 4px solid #D4AF37; border-radius: 4px; padding: 20px; box-shadow: inset 0 0 20px rgba(0,0,0,0.8), 0 5px 15px rgba(0,0,0,0.6); margin-bottom: 40px;">
+<div style="background: linear-gradient(135deg, rgba(20,20,20,0.85) 0%, rgba(40,30,15,0.85) 100%); border: 1px solid #554422; border-left: 4px solid #D4AF37; border-radius: 4px; padding: 20px; box-shadow: inset 0 0 20px rgba(0,0,0,0.8), 0 5px 15px rgba(0,0,0,0.6); margin-bottom: 40px;">
+<div style="display: flex; gap: 25px; flex-wrap: wrap; align-items: center;">
 
-<div style="flex-shrink: 0; border: 2px solid #D4AF37; padding: 4px; background: #000; box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); height: fit-content;">
-<img src="Portrait.jpg" width="190" style="display: block; filter: contrast(1.1) sepia(20%) hue-rotate(340deg);">
+<div style="flex: 0 0 190px; border: 2px solid #D4AF37; padding: 4px; background: #000; box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); height: fit-content; text-align: center;">
+
+![Portrait.jpg](/img/user/Images/Portrait.jpg)
+
 </div>
 
-<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center; font-family: 'Courier New', monospace; font-size: 0.9em;">
+<div style="flex: 1; min-width: 300px; font-family: 'Courier New', monospace; font-size: 0.9em;">
 
 | **Parameter** | **Unit Specification** |
 | :--- | :--- |
@@ -34,6 +37,7 @@
 | <span style="color:#888;">Genetic Origin</span> | Zorath Lineage - Minor Holder - Nafomeh III (Somi) |
 | <span style="color:#888;">Allegiance Contract</span> | <span style="color:#D4AF37; font-weight: bold;">Unwavering - House Tash-Murkon</span> |
 
+</div>
 </div>
 </div>
 
@@ -70,7 +74,6 @@
 > 🔗 
 
 </div>
-
 </div>
 
 <div style="margin-top: 40px; border-top: 1px solid #333; padding-top: 15px; text-align: center; font-family: 'Courier New', monospace; color: #ff4d4d; letter-spacing: 4px; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 77, 77, 0.03) 10px, rgba(255, 77, 77, 0.03) 20px);">
