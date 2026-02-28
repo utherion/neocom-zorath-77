@@ -16,10 +16,21 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 
 .eve-row { padding: 8px 15px 8px 55px; display: flex; align-items: center; border-bottom: 1px dotted #222; transition: background 0.2s; }
 .eve-row:hover { background: rgba(255,255,255,0.05); }
-/* Correction cruciale pour l'alignement des liens Obsidian */
 .eve-row p { margin: 0; padding: 0; display: flex; align-items: center; } 
 a.internal-link { color: #e0e0e0 !important; text-decoration: none !important; font-size: 15px; transition: 0.2s; font-weight: 500; }
 a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
+
+/* ANIMATIONS DU NEURAL SYNC MODULE */
+@keyframes loadingBar { 0% { width: 0%; } 100% { width: 100%; } }
+@keyframes hideText { 0% { opacity: 1; } 99% { opacity: 1; } 100% { opacity: 0; display: none; } }
+@keyframes showText { 0% { opacity: 0; } 99% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes pulseGlow { 0% { opacity: 0.5; box-shadow: 0 0 5px #7DF9FF; } 50% { opacity: 1; box-shadow: 0 0 15px #7DF9FF; } 100% { opacity: 0.5; box-shadow: 0 0 5px #7DF9FF; } }
+
+.sync-bar-container { width: 100%; height: 4px; background: #222; margin-top: 8px; position: relative; overflow: hidden; }
+.sync-bar-fill { height: 100%; background: #7DF9FF; width: 100%; animation: loadingBar 2.5s ease-out forwards; box-shadow: 0 0 10px #7DF9FF; }
+.sync-text-loading { animation: hideText 2.5s forwards; position: absolute; }
+.sync-text-done { animation: showText 2.5s forwards; opacity: 0; color: #7DF9FF; font-weight: bold; }
+.sync-status-dot { width: 8px; height: 8px; background: #7DF9FF; border-radius: 50%; display: inline-block; margin-right: 8px; animation: pulseGlow 1.5s infinite; }
 </style>
 
 <div class="eve-window">
@@ -29,9 +40,23 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 <img src="https://image.eveonline.com/Corporation/1000082_128.png" width="18" style="filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.8));">
 <strong style="color: #fff; font-size: 15px; letter-spacing: 3px; text-transform: uppercase;">MIO // SECURE_INFO_TERMINAL // NODE 77-A</strong>
 </div>
+<div style="display: flex; align-items: center; gap: 6px; font-family: monospace; font-size: 10px; color: #7DF9FF; letter-spacing: 1px;">
+<span class="sync-status-dot"></span> LINK ACTIVE
+</div>
 </div>
 
 <div class="eve-content">
+
+<div style="border: 1px solid #333; background: rgba(0, 20, 30, 0.3); padding: 12px 15px; margin-bottom: 25px; font-family: monospace; font-size: 12px; letter-spacing: 1px;">
+  <div style="display: flex; justify-content: space-between; position: relative; height: 16px;">
+    <div style="color: #888;">> INITIALIZING NEURAL PATHWAYS...</div>
+    <div class="sync-text-loading" style="right: 0; color: #D4AF37;">SCANNING PILOT SIGNATURE [ WAIT ]</div>
+    <div class="sync-text-done" style="right: 0;">SIGNATURE MATCHED [ SYNC 100% ]</div>
+  </div>
+  <div class="sync-bar-container">
+    <div class="sync-bar-fill"></div>
+  </div>
+</div>
 
 <div style="background: rgba(30, 0, 0, 0.5); border: 1px solid #ff4d4d; border-left: 4px solid #ff4d4d; padding: 18px; margin-bottom: 35px; display: flex; justify-content: space-between; align-items: center; gap: 20px;">
 <div>
