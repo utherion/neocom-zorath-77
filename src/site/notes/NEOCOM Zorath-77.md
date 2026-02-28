@@ -2,11 +2,6 @@
 {"dg-publish":true,"permalink":"/neocom-zorath-77/","tags":["gardenEntry"]}
 ---
 
----
-dg-publish: true
-dg-home: true
----
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 body, .markdown-preview-view, .markdown-rendered { background-color: #050505 !important; font-family: 'Rajdhani', sans-serif !important; color: #ccc !important; }
