@@ -29,7 +29,7 @@
 
 Ithika Zorath was born on Nafomeh III, an arid silica pearl nestled within the Somi constellation, leagues away from the opulence of the capital worlds. His birth was inscribed in the austerity of a leaden sky and crushing atmospheric pressure, where his lineage managed a fief of Minor Holders with the silent rigor of those who know their place before God.
 
-![[Nafomeh III.png\|Nafomeh III.png]]
+![Nafomeh III.png](/img/user/ARCHIVES%20MIO/IMAGES/Nafomeh%20III.png)
 
 The Zoraths were second-tier nobles, a hardworking family whose devotion was measured by the regularity of Kernite and Scordite shipments sent to the imperial forges.
 
@@ -43,7 +43,7 @@ Driven mad by withdrawal and hatred, the Minmatar mutated into a raging horde. I
 
 Within the cramped, smoke-saturated corridors, Ithika operated with glacial professionalism, neutralizing every threat definitively. Every laser discharge was the result of an instantaneous calculation, his shots finding the joints and vital points of the attackers with absolute economy of movement.
 
-![[Contre-abordage.png\|Contre-abordage.png]]
+![Contre-abordage.png](/img/user/ARCHIVES%20MIO/IMAGES/Contre-abordage.png)
 
 Once the vessel was pacified and the dignitary secured, the House high command distinguished Ithika by awarding him the Golden Crane Insignia, a highly prestigious mark of favor within the Tash-Murkon hierarchy. Struck by this extraordinary composure, Lady Arissa demanded his permanent integration into her Honor Guard.
 
@@ -61,7 +61,7 @@ The sabotage was of a venomous subtlety: an odorless military neurotoxin infiltr
 
 He locked the chamber, gifting Lady Arissa her life. While his lungs filled with death and his nervous system collapsed, Arissa, helpless behind the armored glass, triggered the fire protocols.
 
-![[Nuit des Cendres.png\|Nuit des Cendres.png]]
+![Nuit des Cendres.png](/img/user/ARCHIVES%20MIO/IMAGES/Nuit%20des%20Cendres.png)
 
 She flooded the area with cryogenic foam, suspending Ithika's agony in a coma of ice at the exact moment the neurotoxin was about to consume his cortex. Upon the arrival of rescuers, she mandated the intervention of a trauma team from Inherent Implants. Under her imperious orders, specialists stabilized the guard's ravaged envelope, placing his vital functions under strict monitoring to preserve the integrity of his final neuronal patterns.
 
@@ -69,15 +69,15 @@ She flooded the area with cryogenic foam, suspending Ithika's agony in a coma of
 
 For one standard year, Ithika's broken body was maintained in a cryogenic stasis pod, hidden deep within a private orbital complex.
 
-![[Sacrilège de la Capsule.png\|Sacrilège de la Capsule.png]]
+![Sacrilège de la Capsule.png](/img/user/ARCHIVES%20MIO/IMAGES/Sacril%C3%A8ge%20de%20la%20Capsule.png)
 
 But the Empire demands absolute transparency. Even before the new body was ready, massive credit flows alerted the Inquisition.
 
-![[Arrestation.png\|Arrestation.png]]
+![Arrestation.png](/img/user/ARCHIVES%20MIO/IMAGES/Arrestation.png)
 
 Torn from her apartments by the Ordinators of the Ministry of Internal Order, Lady Arissa was stripped of her rank and delivered to the Theology Council under the pretext of a "perpetual spiritual retreat".
 
-![[Transfert.png\|Transfert.png]]
+![Transfert.png](/img/user/ARCHIVES%20MIO/IMAGES/Transfert.png)
 
 She disappeared into the golden dungeons of Tash-Murkon Prime, leaving behind an unfinished plan.
 
@@ -93,7 +93,7 @@ Every pirate intercepted in the asteroid belts, every freight convoy escorted th
 
 The capsule has closed around him like a glass sarcophagus, sealing an eternal contract. The hydrostatic fluid fills his lungs, the neural interfaces fuse with his spine, and his mind unites with the very structure of his ship. As the docking bays release his ebony silhouette into the cold immensity of New Eden, the Penitent begins his labor. He no longer defends only the Faith and the Empire; he redeems every day, through blood and steel, the life of the woman he can never again behold except through the spectrum of his sensors.
 
-![[Liturgie du Vide.png\|Liturgie du Vide.png]]
+![Liturgie du Vide.png](/img/user/ARCHIVES%20MIO/IMAGES/Liturgie%20du%20Vide.png)
 
 ---
 
