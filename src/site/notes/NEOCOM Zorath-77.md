@@ -14,24 +14,31 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 .eve-btn-cyan { border-top: 2px solid #244; }
 .eve-btn-cyan:hover { border-color: #7DF9FF; background: rgba(125, 249, 255, 0.1); box-shadow: 0 0 15px rgba(125, 249, 255, 0.2); }
 
-/* Magie CSS : Transforme les liens Obsidian bruts en jolis boutons de liste EVE */
-.internal-link { display: block; padding: 8px 15px; background: rgba(255,255,255,0.03); border-left: 2px solid #444; color: #D4AF37 !important; text-decoration: none !important; font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: 0.2s; margin-top: 8px; }
-.internal-link:hover { border-left-color: #D4AF37; background: rgba(212, 175, 55, 0.1); text-shadow: 0 0 8px rgba(212,175,55,0.5); padding-left: 20px; }
+/* Nouveaux styles pour l'explorateur de fichiers EVE */
+.eve-row { padding: 6px 15px 6px 35px; display: flex; align-items: center; border-bottom: 1px dotted #222; transition: background 0.2s; }
+.eve-row:hover { background: rgba(255,255,255,0.05); }
+.eve-row p { margin: 0; padding: 0; } /* Anti-bug Obsidian */
+a.internal-link { color: #e0e0e0 !important; text-decoration: none !important; font-size: 15px; transition: 0.2s; font-weight: 500; }
+a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 </style>
 
 <div class="eve-window">
+
 <div style="background: linear-gradient(to bottom, #2a2a2e, #101012); padding: 12px 20px; border-bottom: 1px solid #222; display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 1;">
 <div style="display: flex; align-items: center; gap: 12px;">
-<span style="color: #D4AF37; font-size: 12px; text-shadow: 0 0 8px #D4AF37;">▶</span>
+<img src="https://image.eveonline.com/Corporation/1000082_128.png" width="18" style="filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.8));">
 <strong style="color: #fff; font-size: 15px; letter-spacing: 3px; text-transform: uppercase;">MIO // SECURE_INFO_TERMINAL // NODE 77-A</strong>
 </div>
 </div>
 
 <div class="eve-content">
 
-<div style="background: rgba(30, 0, 0, 0.5); border: 1px solid #ff4d4d; border-left: 4px solid #ff4d4d; padding: 18px; margin-bottom: 35px;">
+<div style="background: rgba(30, 0, 0, 0.5); border: 1px solid #ff4d4d; border-left: 4px solid #ff4d4d; padding: 18px; margin-bottom: 35px; display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+<div>
 <h3 style="color: #ff4d4d; margin: 0 0 8px 0; font-size: 18px; text-transform: uppercase; letter-spacing: 2px;">⚠ Restricted Access Protocol</h3>
 <p style="font-size: 15px; margin: 0; color: #ccc;">Monitoring active. Any synaptic deviation is logged by the Ministry of Internal Order.</p>
+</div>
+<img src="https://image.eveonline.com/Corporation/1000082_128.png" width="64" style="opacity: 0.85; filter: drop-shadow(0 0 12px rgba(255, 77, 77, 0.6)); flex-shrink: 0;">
 </div>
 
 <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 40px; align-items: flex-start;">
@@ -54,40 +61,52 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 </div>
 </div>
 
-<div style="display: flex; gap: 30px; margin-bottom: 40px; flex-wrap: wrap;">
+<h4 style="color: #555; border-bottom: 1px solid #222; padding-bottom: 8px; margin: 0 0 15px 0; font-size: 14px; letter-spacing: 2px; text-transform: uppercase;">Index Manager</h4>
 
-<div style="flex: 1; min-width: 250px; background: rgba(255, 255, 255, 0.02); border: 1px solid #222; border-top: 2px solid #555; padding: 25px;">
-<div style="color: #888; font-size: 11px; margin-bottom: 25px; letter-spacing: 2px; border-bottom: 1px dashed #333; padding-bottom: 5px;">SYS.LANG // ENGLISH</div>
+<div style="border: 1px solid #333; background: #08080a; margin-bottom: 40px; box-shadow: inset 0 0 10px rgba(0,0,0,0.8);">
 
-<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[01] MIO ARCHIVES</h5>
-<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Classified documents</div>
-
-[[ARCHIVES MIO/EN - ARCHIVES OF HOUSE TASH-MURKON\|EN - ARCHIVES OF HOUSE TASH-MURKON]]
-
-<br><br>
-
-<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[02] CONSCIOUSNESS LOGS</h5>
-<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Neural sync backups</div>
-
-[[EN - CONSCIOUSNESS LOGS\|EN - CONSCIOUSNESS LOGS]]
-
+<div style="background: rgba(212, 175, 55, 0.05); padding: 8px 12px; border-bottom: 1px solid #222; color: #D4AF37; font-size: 13px; letter-spacing: 1px; display: flex; align-items: center; gap: 8px;">
+<span style="font-size: 10px;">▼</span> <span>📁</span> <strong>SYS.LANG // ENGLISH</strong>
 </div>
 
-<div style="flex: 1; min-width: 250px; background: rgba(255, 255, 255, 0.02); border: 1px solid #222; border-top: 2px solid #555; padding: 25px;">
-<div style="color: #888; font-size: 11px; margin-bottom: 25px; letter-spacing: 2px; border-bottom: 1px dashed #333; padding-bottom: 5px;">SYS.LANG // FRANÇAIS</div>
+<div class="eve-row">
+<div style="flex: 2; display: flex; align-items: center; gap: 8px;">
+<span style="color: #7DF9FF; font-size: 14px;">📄</span>
+[[ARCHIVES MIO/EN - ARCHIVES OF HOUSE TASH-MURKON\|EN - ARCHIVES OF HOUSE TASH-MURKON]]
+</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Security: CLASSIFIED</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Size: 2.4 TB</div>
+</div>
 
-<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[01] ARCHIVES MIO</h5>
-<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Documents classifiés</div>
+<div class="eve-row">
+<div style="flex: 2; display: flex; align-items: center; gap: 8px;">
+<span style="color: #7DF9FF; font-size: 14px;">🧠</span>
+[[EN - CONSCIOUSNESS LOGS\|EN - CONSCIOUSNESS LOGS]]
+</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Status: NEURAL SYNC</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Size: 18.1 PB</div>
+</div>
 
+<div style="background: rgba(212, 175, 55, 0.05); padding: 8px 12px; border-bottom: 1px solid #222; border-top: 1px solid #333; color: #D4AF37; font-size: 13px; letter-spacing: 1px; display: flex; align-items: center; gap: 8px;">
+<span style="font-size: 10px;">▼</span> <span>📁</span> <strong>SYS.LANG // FRANÇAIS</strong>
+</div>
+
+<div class="eve-row">
+<div style="flex: 2; display: flex; align-items: center; gap: 8px;">
+<span style="color: #7DF9FF; font-size: 14px;">📄</span>
 [[ARCHIVES MIO/FR - ARCHIVES OF HOUSE TASH-MURKON\|FR - ARCHIVES OF HOUSE TASH-MURKON]]
+</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Sécurité: CLASSIFIÉ</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Taille: 2.4 TB</div>
+</div>
 
-<br><br>
-
-<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[02] LOGS DE CONSCIENCE</h5>
-<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Sauvegardes neurales</div>
-
+<div class="eve-row">
+<div style="flex: 2; display: flex; align-items: center; gap: 8px;">
+<span style="color: #7DF9FF; font-size: 14px;">🧠</span>
 [[FR - LOGS DE CONSCIENCE\|FR - LOGS DE CONSCIENCE]]
-
+</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Statut: SYNC NEURALE</div>
+<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Taille: 18.1 PB</div>
 </div>
 
 </div>
