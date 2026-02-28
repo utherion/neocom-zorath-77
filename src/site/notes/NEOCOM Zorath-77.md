@@ -16,7 +16,8 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 
 .eve-row { padding: 8px 15px 8px 55px; display: flex; align-items: center; border-bottom: 1px dotted #222; transition: background 0.2s; }
 .eve-row:hover { background: rgba(255,255,255,0.05); }
-.eve-row p { margin: 0; padding: 0; }
+/* Correction cruciale pour l'alignement des liens Obsidian */
+.eve-row p { margin: 0; padding: 0; display: flex; align-items: center; } 
 a.internal-link { color: #e0e0e0 !important; text-decoration: none !important; font-size: 15px; transition: 0.2s; font-weight: 500; }
 a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 </style>
@@ -75,7 +76,9 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 <div class="eve-row">
 <div style="flex: 2; display: flex; align-items: center; gap: 8px;">
 <span style="color: #7DF9FF; font-size: 14px;">📄</span>
+
 [[ARCHIVES MIO/EN - ARCHIVES OF HOUSE TASH-MURKON\|EN - ARCHIVES OF HOUSE TASH-MURKON]]
+
 </div>
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Security: CLASSIFIED</div>
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Size: 2.4 TB</div>
@@ -93,7 +96,9 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 <div class="eve-row">
 <div style="flex: 2; display: flex; align-items: center; gap: 8px;">
 <span style="color: #7DF9FF; font-size: 14px;">📄</span>
+
 [[ARCHIVES MIO/FR - ARCHIVES OF HOUSE TASH-MURKON\|FR - ARCHIVES OF HOUSE TASH-MURKON]]
+
 </div>
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Sécurité: CLASSIFIÉ</div>
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Taille: 2.4 TB</div>
