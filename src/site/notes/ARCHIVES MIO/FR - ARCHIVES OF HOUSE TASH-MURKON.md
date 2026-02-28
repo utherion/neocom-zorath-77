@@ -26,7 +26,7 @@
 
 Ithika Zorath vit le jour sur Nafomeh III, une perle de silice aride nichée dans la constellation de Somi, à des lieues de l'opulence des mondes capitaux. Sa naissance s'inscrivit dans l'austérité d'un ciel de plomb à la pression atmosphérique écrasante, où sa lignée gérait un fief de Minor Holders avec la rigueur silencieuse de ceux qui connaissent leur place devant Dieu. 
 
-![[Nafomeh III.png\|Nafomeh III.png]]
+![Nafomeh III.png](/img/user/ARCHIVES%20MIO/IMAGES/Nafomeh%20III.png)
 
 Les Zorath étaient des nobles de second rang, une famille besogneuse dont la dévotion se mesurait à la régularité des convois de Kernite et de Scordite envoyés vers les forges impériales.
 
@@ -40,7 +40,7 @@ Rendus fous par le sevrage et la haine, les Minmatars mutèrent en une horde enr
 
 Dans l'étroitesse des coursives saturées de fumée, Ithika opéra avec un professionnalisme glacial, neutralisant chaque menace de façon définitive. Chaque décharge laser résultait d'un calcul instantané, ses tirs trouvant les articulations et les points vitaux des assaillants avec une économie de mouvement absolue. 
 
-![[Contre-abordage.png\|Contre-abordage.png]]
+![Contre-abordage.png](/img/user/ARCHIVES%20MIO/IMAGES/Contre-abordage.png)
 
 Une fois le bâtiment pacifié et la dignitaire sécurisée, le haut commandement de la Maison distingua Ithika par l'octroi de l'Insigne de la Grue d'Or, une marque de faveur hautement prestigieuse au sein de la hiérarchie Tash-Murkon. Saisie par ce sang-froid hors du commun, Lady Arissa exigea son intégration permanente à sa Garde d'Honneur.
 
@@ -58,7 +58,7 @@ Le sabotage fut d'une subtilité venimeuse : une neurotoxine militaire inodore i
 
 Il verrouilla la chambre, offrant la vie à Lady Arissa. Tandis que ses poumons se gorgeaient de mort et que son système nerveux s'effondrait, Arissa, impuissante derrière le verre blindé, déclencha les protocoles incendie. 
 
-![[Nuit des Cendres.png\|Nuit des Cendres.png]]
+![Nuit des Cendres.png](/img/user/ARCHIVES%20MIO/IMAGES/Nuit%20des%20Cendres.png)
 
 Elle inonda la zone de mousse cryogénique, suspendant l'agonie d'Ithika dans un coma de glace au moment précis où la neurotoxine allait consumer son cortex. Dès l'arrivée des secours, elle imposa l'intervention d'une équipe de traumatologie d'Inherent Implants. Sous ses ordres impérieux, les spécialistes stabilisèrent l'enveloppe ravagée du garde, plaçant ses fonctions vitales sous un monitoring strict pour préserver l'intégrité de ses derniers schémas neuronaux.
 
@@ -66,15 +66,15 @@ Elle inonda la zone de mousse cryogénique, suspendant l'agonie d'Ithika dans un
 
 Pendant une année standard, le corps brisé d'Ithika fut maintenu dans un caisson de stase cryogénique, dissimulé dans les tréfonds d'un complexe orbital privé.
 
-![[Sacrilège de la Capsule.png\|Sacrilège de la Capsule.png]]
+![Sacrilège de la Capsule.png](/img/user/ARCHIVES%20MIO/IMAGES/Sacril%C3%A8ge%20de%20la%20Capsule.png)
 
 Mais l'Empire exige une transparence absolue. Avant même que le nouveau corps ne soit prêt, les flux massifs de crédits alertèrent l'Inquisition.
 
-![[Arrestation.png\|Arrestation.png]]
+![Arrestation.png](/img/user/ARCHIVES%20MIO/IMAGES/Arrestation.png)
 
 Arrachée à ses appartements par les Ordinators du Ministère de l'Ordre Interne, Lady Arissa fue déchue et livrée au Conseil de Théologie sous le prétexte d'une « retraite spirituelle perpétuelle ».
 
-![[Transfert.png\|Transfert.png]]
+![Transfert.png](/img/user/ARCHIVES%20MIO/IMAGES/Transfert.png)
 
 Elle disparut dans les geôles dorées de Tash-Murkon Prime, laissant derrière elle un plan inachevé.
 
@@ -90,7 +90,7 @@ Chaque pirate intercepté dans les ceintures d'astéroïdes, chaque convoi de fr
 
 La capsule s'est refermée sur lui comme un sarcophage de verre, scellant un contrat éternel. Le fluide hydrostatique emplit ses poumons, les interfaces neuronales fusionnent avec son rachis, et son esprit s'unit à la structure même de son vaisseau. Alors que les sas d'amarrage libèrent sa silhouette d'ébène dans l'immensité froide de New Eden, le Pénitent commence son labeur. Il ne défend plus seulement la Foi et l'Empire ; il rachète chaque jour, par le sang et l'acier, la vie de la femme qu'il ne pourra plus jamais contempler qu'à travers le spectre de ses capteurs
 
-![[Liturgie du Vide.png\|Liturgie du Vide.png]]
+![Liturgie du Vide.png](/img/user/ARCHIVES%20MIO/IMAGES/Liturgie%20du%20Vide.png)
 
 ---
 
