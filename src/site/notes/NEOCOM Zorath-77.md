@@ -92,7 +92,7 @@
 
   <div style="flex: 1; min-width: 250px; background: rgba(10, 20, 30, 0.8); border: 1px solid #7DF9FF; border-radius: 4px; padding: 15px; box-shadow: 0 4px 10px rgba(0,255,255,0.15);">
     <div style="color: #7DF9FF; font-family: 'Courier New', monospace; font-size: 0.85em; letter-spacing: 2px; margin-bottom: 12px; border-bottom: 1px dashed #7DF9FF; padding-bottom: 5px;">► DEADSPACE ANOMALIES</div>
-    <a href="https://abysstracker.com/my-account" target="_blank" style="text-decoration: none;">
+    <a href="https://abysstracker.com/u/ithika-zorath" target="_blank" style="text-decoration: none;">
       <strong style="color: #E5E4E2; font-size: 1.3em; text-shadow: 0 0 8px rgba(125,249,255,0.6); transition: 0.3s;">[ TRIGLAVIAN INCURSIONS ]</strong>
     </a>
     <div style="color: #888; font-family: 'Courier New', monospace; font-size: 0.8em; margin-top: 12px;">ABYSSAL SURVIVAL TELEMETRY</div>
