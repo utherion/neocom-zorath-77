@@ -14,10 +14,9 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 .eve-btn-cyan { border-top: 2px solid #244; }
 .eve-btn-cyan:hover { border-color: #7DF9FF; background: rgba(125, 249, 255, 0.1); box-shadow: 0 0 15px rgba(125, 249, 255, 0.2); }
 
-/* Nouveaux styles pour l'explorateur de fichiers EVE */
-.eve-row { padding: 6px 15px 6px 35px; display: flex; align-items: center; border-bottom: 1px dotted #222; transition: background 0.2s; }
+.eve-row { padding: 8px 15px 8px 45px; display: flex; align-items: center; border-bottom: 1px dotted #222; transition: background 0.2s; }
 .eve-row:hover { background: rgba(255,255,255,0.05); }
-.eve-row p { margin: 0; padding: 0; } /* Anti-bug Obsidian */
+.eve-row p { margin: 0; padding: 0; }
 a.internal-link { color: #e0e0e0 !important; text-decoration: none !important; font-size: 15px; transition: 0.2s; font-weight: 500; }
 a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 </style>
@@ -78,15 +77,6 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Size: 2.4 TB</div>
 </div>
 
-<div class="eve-row">
-<div style="flex: 2; display: flex; align-items: center; gap: 8px;">
-<span style="color: #7DF9FF; font-size: 14px;">🧠</span>
-[[EN - CONSCIOUSNESS LOGS\|EN - CONSCIOUSNESS LOGS]]
-</div>
-<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Status: NEURAL SYNC</div>
-<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Size: 18.1 PB</div>
-</div>
-
 <div style="background: rgba(212, 175, 55, 0.05); padding: 8px 12px; border-bottom: 1px solid #222; border-top: 1px solid #333; color: #D4AF37; font-size: 13px; letter-spacing: 1px; display: flex; align-items: center; gap: 8px;">
 <span style="font-size: 10px;">▼</span> <span>📁</span> <strong>SYS.LANG // FRANÇAIS</strong>
 </div>
@@ -98,15 +88,6 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 </div>
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Sécurité: CLASSIFIÉ</div>
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Taille: 2.4 TB</div>
-</div>
-
-<div class="eve-row">
-<div style="flex: 2; display: flex; align-items: center; gap: 8px;">
-<span style="color: #7DF9FF; font-size: 14px;">🧠</span>
-[[FR - LOGS DE CONSCIENCE\|FR - LOGS DE CONSCIENCE]]
-</div>
-<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px;">Statut: SYNC NEURALE</div>
-<div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Taille: 18.1 PB</div>
 </div>
 
 </div>
