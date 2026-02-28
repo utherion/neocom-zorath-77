@@ -14,7 +14,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 .eve-btn-cyan { border-top: 2px solid #244; }
 .eve-btn-cyan:hover { border-color: #7DF9FF; background: rgba(125, 249, 255, 0.1); box-shadow: 0 0 15px rgba(125, 249, 255, 0.2); }
 
-.eve-row { padding: 8px 15px 8px 45px; display: flex; align-items: center; border-bottom: 1px dotted #222; transition: background 0.2s; }
+.eve-row { padding: 8px 15px 8px 55px; display: flex; align-items: center; border-bottom: 1px dotted #222; transition: background 0.2s; }
 .eve-row:hover { background: rgba(255,255,255,0.05); }
 .eve-row p { margin: 0; padding: 0; }
 a.internal-link { color: #e0e0e0 !important; text-decoration: none !important; font-size: 15px; transition: 0.2s; font-weight: 500; }
@@ -64,8 +64,12 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 
 <div style="border: 1px solid #333; background: #08080a; margin-bottom: 40px; box-shadow: inset 0 0 10px rgba(0,0,0,0.8);">
 
-<div style="background: rgba(212, 175, 55, 0.05); padding: 8px 12px; border-bottom: 1px solid #222; color: #D4AF37; font-size: 13px; letter-spacing: 1px; display: flex; align-items: center; gap: 8px;">
-<span style="font-size: 10px;">▼</span> <span>📁</span> <strong>SYS.LANG // ENGLISH</strong>
+<div style="background: rgba(212, 175, 55, 0.05); padding: 8px 12px; border-bottom: 1px solid #222; color: #D4AF37; font-size: 13px; letter-spacing: 1px;">
+<strong>SYS.LANG // ENGLISH</strong>
+</div>
+
+<div style="padding: 8px 15px 8px 25px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #1a1a1a; background: rgba(255,255,255,0.02);">
+<span style="font-size: 10px; color: #888;">▼</span> <span style="font-size: 14px;">📁</span> <strong style="color: #e0e0e0; font-size: 14px; letter-spacing: 1px;">MIO ARCHIVES</strong>
 </div>
 
 <div class="eve-row">
@@ -77,8 +81,13 @@ a.internal-link:hover { color: #fff !important; text-shadow: 0 0 5px #fff; }
 <div style="flex: 1; color: #888; font-size: 12px; letter-spacing: 1px; text-align: right;">Size: 2.4 TB</div>
 </div>
 
-<div style="background: rgba(212, 175, 55, 0.05); padding: 8px 12px; border-bottom: 1px solid #222; border-top: 1px solid #333; color: #D4AF37; font-size: 13px; letter-spacing: 1px; display: flex; align-items: center; gap: 8px;">
-<span style="font-size: 10px;">▼</span> <span>📁</span> <strong>SYS.LANG // FRANÇAIS</strong>
+
+<div style="background: rgba(212, 175, 55, 0.05); padding: 8px 12px; border-bottom: 1px solid #222; border-top: 1px solid #333; color: #D4AF37; font-size: 13px; letter-spacing: 1px;">
+<strong>SYS.LANG // FRANÇAIS</strong>
+</div>
+
+<div style="padding: 8px 15px 8px 25px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #1a1a1a; background: rgba(255,255,255,0.02);">
+<span style="font-size: 10px; color: #888;">▼</span> <span style="font-size: 14px;">📁</span> <strong style="color: #e0e0e0; font-size: 14px; letter-spacing: 1px;">ARCHIVES MIO</strong>
 </div>
 
 <div class="eve-row">
