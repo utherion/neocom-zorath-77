@@ -77,5 +77,28 @@
 </div>
 
 <div style="margin-top: 40px; border-top: 1px solid #333; padding-top: 15px; text-align: center; font-family: 'Courier New', monospace; color: #ff4d4d; letter-spacing: 4px; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 77, 77, 0.03) 10px, rgba(255, 77, 77, 0.03) 20px);">
+
+<h3 style="color: #D4AF37; font-family: 'Courier New', monospace; border-bottom: 1px solid rgba(212, 175, 55, 0.5); padding-bottom: 5px; text-transform: uppercase; letter-spacing: 2px;">📡 OPERATIONAL TELEMETRY</h3>
+
+<div style="display: flex; gap: 20px; margin-bottom: 30px; text-align: center; flex-wrap: wrap;">
+
+  <div style="flex: 1; min-width: 250px; background: rgba(40, 10, 10, 0.8); border: 1px solid #ff4d4d; border-radius: 4px; padding: 15px; box-shadow: 0 4px 10px rgba(255,0,0,0.15);">
+    <div style="color: #ff4d4d; font-family: 'Courier New', monospace; font-size: 0.85em; letter-spacing: 2px; margin-bottom: 12px; border-bottom: 1px dashed #ff4d4d; padding-bottom: 5px;">► COMBAT REGISTRY</div>
+    <a href="https://zkillboard.com/character/2124123129/" target="_blank" style="text-decoration: none;">
+      <strong style="color: #E5E4E2; font-size: 1.3em; text-shadow: 0 0 8px rgba(255,77,77,0.6); transition: 0.3s;">[ BLOOD TITHE METRICS ]</strong>
+    </a>
+    <div style="color: #888; font-family: 'Courier New', monospace; font-size: 0.8em; margin-top: 12px;">Z-KILL TARGET ELIMINATION LOG</div>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; background: rgba(10, 20, 30, 0.8); border: 1px solid #7DF9FF; border-radius: 4px; padding: 15px; box-shadow: 0 4px 10px rgba(0,255,255,0.15);">
+    <div style="color: #7DF9FF; font-family: 'Courier New', monospace; font-size: 0.85em; letter-spacing: 2px; margin-bottom: 12px; border-bottom: 1px dashed #7DF9FF; padding-bottom: 5px;">► DEADSPACE ANOMALIES</div>
+    <a href="https://abysstracker.com/my-account" target="_blank" style="text-decoration: none;">
+      <strong style="color: #E5E4E2; font-size: 1.3em; text-shadow: 0 0 8px rgba(125,249,255,0.6); transition: 0.3s;">[ TRIGLAVIAN INCURSIONS ]</strong>
+    </a>
+    <div style="color: #888; font-family: 'Courier New', monospace; font-size: 0.8em; margin-top: 12px;">ABYSSAL SURVIVAL TELEMETRY</div>
+  </div>
+
+
+</div>
   <strong>[ ! ] CAUTION: END OF SESSION [ ! ]</strong>
 </div>
