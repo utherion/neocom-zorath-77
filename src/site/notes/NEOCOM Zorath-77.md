@@ -13,9 +13,10 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 .eve-btn-red:hover { border-color: #ff4d4d; background: rgba(255, 77, 77, 0.1); box-shadow: 0 0 15px rgba(255, 77, 77, 0.2); }
 .eve-btn-cyan { border-top: 2px solid #244; }
 .eve-btn-cyan:hover { border-color: #7DF9FF; background: rgba(125, 249, 255, 0.1); box-shadow: 0 0 15px rgba(125, 249, 255, 0.2); }
-/* Force le design des liens Obsidian natifs */
-.internal-link { color: #D4AF37 !important; text-decoration: none !important; font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: 0.2s; }
-.internal-link:hover { text-shadow: 0 0 10px #D4AF37; }
+
+/* Magie CSS : Transforme les liens Obsidian bruts en jolis boutons de liste EVE */
+.internal-link { display: block; padding: 8px 15px; background: rgba(255,255,255,0.03); border-left: 2px solid #444; color: #D4AF37 !important; text-decoration: none !important; font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: 0.2s; margin-top: 8px; }
+.internal-link:hover { border-left-color: #D4AF37; background: rgba(212, 175, 55, 0.1); text-shadow: 0 0 8px rgba(212,175,55,0.5); padding-left: 20px; }
 </style>
 
 <div class="eve-window">
@@ -34,7 +35,6 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 </div>
 
 <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 40px; align-items: flex-start;">
-
 <div style="width: 190px; border: 1px solid #444; padding: 4px; background: #000; position: relative; box-shadow: 0 0 20px rgba(0,0,0,0.8);">
 <div style="position: absolute; top: -1px; left: -1px; width: 15px; height: 15px; border-top: 2px solid #D4AF37; border-left: 2px solid #D4AF37;"></div>
 <div style="position: absolute; bottom: -1px; right: -1px; width: 15px; height: 15px; border-bottom: 2px solid #D4AF37; border-right: 2px solid #D4AF37;"></div>
@@ -57,48 +57,51 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="display: flex; gap: 30px; margin-bottom: 40px; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 250px; background: rgba(255, 255, 255, 0.02); border: 1px solid #222; border-top: 2px solid #555; padding: 25px;">
-<div style="color: #888; font-size: 11px; margin-bottom: 20px; letter-spacing: 2px;">SYS.LANG // ENGLISH</div>
+<div style="color: #888; font-size: 11px; margin-bottom: 25px; letter-spacing: 2px; border-bottom: 1px dashed #333; padding-bottom: 5px;">SYS.LANG // ENGLISH</div>
+
+<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[01] MIO ARCHIVES</h5>
+<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Classified documents</div>
 
 [[ARCHIVES MIO/EN - ARCHIVES OF HOUSE TASH-MURKON\|EN - ARCHIVES OF HOUSE TASH-MURKON]]
 
 <br><br>
 
+<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[02] CONSCIOUSNESS LOGS</h5>
+<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Neural sync backups</div>
+
 [[EN - CONSCIOUSNESS LOGS\|EN - CONSCIOUSNESS LOGS]]
 
-<br><br>
-
-<span style="opacity: 0.5;">🔒 [ CLASSIFIED ]</span>
 </div>
 
 <div style="flex: 1; min-width: 250px; background: rgba(255, 255, 255, 0.02); border: 1px solid #222; border-top: 2px solid #555; padding: 25px;">
-<div style="color: #888; font-size: 11px; margin-bottom: 20px; letter-spacing: 2px;">SYS.LANG // FRANÇAIS</div>
+<div style="color: #888; font-size: 11px; margin-bottom: 25px; letter-spacing: 2px; border-bottom: 1px dashed #333; padding-bottom: 5px;">SYS.LANG // FRANÇAIS</div>
+
+<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[01] ARCHIVES MIO</h5>
+<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Documents classifiés</div>
 
 [[ARCHIVES MIO/FR - ARCHIVES OF HOUSE TASH-MURKON\|FR - ARCHIVES OF HOUSE TASH-MURKON]]
 
 <br><br>
 
+<h5 style="color: #7DF9FF; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">[02] LOGS DE CONSCIENCE</h5>
+<div style="color: #666; font-size: 12px; margin-bottom: 5px;">Sauvegardes neurales</div>
+
 [[FR - LOGS DE CONSCIENCE\|FR - LOGS DE CONSCIENCE]]
 
-<br><br>
-
-<span style="opacity: 0.5;">🔒 [ CLASSIFIED ]</span>
 </div>
+
 </div>
 
 <h4 style="color: #555; border-bottom: 1px solid #222; padding-bottom: 8px; margin: 0 0 20px 0; font-size: 14px; letter-spacing: 2px; text-transform: uppercase;">External Live Feeds</h4>
-
 <div style="display: flex; gap: 30px; flex-wrap: wrap;">
-
 <a href="https://zkillboard.com/character/2124123129/" target="_blank" class="eve-btn eve-btn-red" style="flex: 1; min-width: 250px;">
 <span style="display: block; color: #ff4d4d; font-size: 11px; margin-bottom: 8px; letter-spacing: 2px;">COMBAT REGISTRY</span>
 <span style="display: block; color: #fff; font-size: 18px; letter-spacing: 1px; font-weight: bold;">[ BLOOD TITHE METRICS ]</span>
 </a>
-
 <a href="https://abysstracker.com/u/ithika-zorath" target="_blank" class="eve-btn eve-btn-cyan" style="flex: 1; min-width: 250px;">
 <span style="display: block; color: #7DF9FF; font-size: 11px; margin-bottom: 8px; letter-spacing: 2px;">DEADSPACE ANOMALIES</span>
 <span style="display: block; color: #fff; font-size: 18px; letter-spacing: 1px; font-weight: bold;">[ ABYSSAL TELEMETRY ]</span>
 </a>
-
 </div>
 
 </div>
