@@ -6,24 +6,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 
 /* ==========================================================
-   💥 ARTILLERIE LOURDE : OVERRIDE DIGITAL GARDEN
+   💥 ARTILLERIE LOURDE : CENTRAGE ABSOLU DIGITAL GARDEN
    ========================================================== */
 :root {
     --file-line-width: 1050px !important;
     --line-width: 1050px !important;
     --content-width: 1050px !important;
 }
-.dg-content-container, .markdown-preview-sizer, .markdown-preview-view {
+
+/* On force tous les conteneurs possibles de Digital Garden à se centrer */
+#page-content,
+.content,
+.dg-content-container, 
+.markdown-preview-sizer, 
+.markdown-preview-view,
+.markdown-rendered {
     max-width: 1050px !important;
     width: 100% !important;
-    margin: 0 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none !important;
 }
 
 /* RESET ET FOND HOLOGRAPHIQUE */
 body, .markdown-preview-view, .markdown-rendered { background-color: #010102 !important; font-family: 'Rajdhani', sans-serif !important; color: #b3b3b3 !important; }
 
-/* LA FENÊTRE PRINCIPALE */
-.eve-window { background: rgba(8, 9, 12, 0.9); border: 1px solid #333; box-shadow: 0 15px 50px rgba(0,0,0,1), inset 0 0 40px rgba(0,0,0,0.8); width: 100%; max-width: 1050px; margin: 0 auto; border-top: 3px solid #D4AF37; font-family: 'Rajdhani', sans-serif; position: relative; overflow: hidden; }
+/* LA FENÊTRE PRINCIPALE (CENTRÉE) */
+.eve-window { background: rgba(8, 9, 12, 0.9); border: 1px solid #333; box-shadow: 0 15px 50px rgba(0,0,0,1), inset 0 0 40px rgba(0,0,0,0.8); width: 100%; max-width: 1050px; margin: 0 auto !important; border-top: 3px solid #D4AF37; font-family: 'Rajdhani', sans-serif; position: relative; overflow: hidden; display: block; }
 
 /* SCANLINES ET BRUIT CRT */
 .eve-window::after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255,0,0,0.03), rgba(0,255,255,0.02)); background-size: 100% 4px, 3px 100%; pointer-events: none; opacity: 0.6; z-index: 50; }
@@ -281,4 +292,4 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 </a>
 </div>
 
-</div> </div> </div>
+</div> </div> </div> 
