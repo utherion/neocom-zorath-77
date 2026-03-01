@@ -5,9 +5,12 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 
+/* OVERRIDE DIGITAL GARDEN CONTAINER WIDTH (Pour casser la colonne étroite sur PC) */
+.dg-content-container, .markdown-preview-view, .markdown-rendered { max-width: 1100px !important; margin: 0 auto !important; }
+
 /* RESET ET FOND HOLOGRAPHIQUE */
 body, .markdown-preview-view, .markdown-rendered { background-color: #010102 !important; font-family: 'Rajdhani', sans-serif !important; color: #b3b3b3 !important; }
-.eve-window { background: rgba(8, 9, 12, 0.9); border: 1px solid #333; box-shadow: 0 15px 50px rgba(0,0,0,1), inset 0 0 40px rgba(0,0,0,0.8); max-width: 950px; margin: 0 auto; border-top: 3px solid #D4AF37; font-family: 'Rajdhani', sans-serif; position: relative; overflow: hidden; }
+.eve-window { background: rgba(8, 9, 12, 0.9); border: 1px solid #333; box-shadow: 0 15px 50px rgba(0,0,0,1), inset 0 0 40px rgba(0,0,0,0.8); max-width: 1050px; width: 100%; margin: 0 auto; border-top: 3px solid #D4AF37; font-family: 'Rajdhani', sans-serif; position: relative; overflow: hidden; }
 
 /* SCANLINES ET BRUIT CRT */
 .eve-window::after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255,0,0,0.03), rgba(0,255,255,0.02)); background-size: 100% 4px, 3px 100%; pointer-events: none; opacity: 0.6; z-index: 50; }
@@ -15,10 +18,10 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #010102 !im
 /* LAYOUT PRINCIPAL */
 .eve-main-flex { display: flex; align-items: stretch; position: relative; z-index: 1; }
 
-/* TERMINAL DE PIRATAGE ULTRA-RÉALISTE */
-.eve-terminal-left { width: 190px; flex-shrink: 0; background: #000; border-right: 1px solid #222; position: relative; overflow: hidden; padding: 0; font-family: monospace; color: #7DF9FF; box-shadow: inset -10px 0 20px rgba(0,0,0,0.9); -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%); mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%); }
+/* TERMINAL DE PIRATAGE ULTRA-RÉALISTE (Élargi à 220px pour PC) */
+.eve-terminal-left { width: 220px; flex-shrink: 0; background: #000; border-right: 1px solid #222; position: relative; overflow: hidden; padding: 0; font-family: monospace; color: #7DF9FF; box-shadow: inset -10px 0 20px rgba(0,0,0,0.9); -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%); mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%); }
 .eve-terminal-scroll { position: absolute; top: 0; left: 15px; right: 10px; animation: scrollHack 15s linear infinite; }
-.eve-terminal-scroll p { margin: 0; padding: 2px 0; font-size: 10px; line-height: 1.3; text-shadow: 0 0 6px rgba(125, 249, 255, 0.8); opacity: 0.85; letter-spacing: 0.5px; }
+.eve-terminal-scroll p { margin: 0; padding: 2px 0; font-size: 11px; line-height: 1.3; text-shadow: 0 0 6px rgba(125, 249, 255, 0.8); opacity: 0.85; letter-spacing: 0.5px; }
 
 /* CONTENU DROIT */
 .eve-content { flex: 1; padding: 40px; position: relative; min-width: 0; background: radial-gradient(circle at center, rgba(20,20,25,0.4) 0%, rgba(0,0,0,0.8) 100%); }
