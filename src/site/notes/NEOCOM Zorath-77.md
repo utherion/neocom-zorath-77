@@ -5,19 +5,25 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 
-/* OVERRIDE DIGITAL GARDEN CONTAINER WIDTH (Correction du bug de compression PC) */
-.dg-content-container, 
-.markdown-preview-view, 
-.markdown-rendered,
-.markdown-preview-sizer { 
-    max-width: 1100px !important; 
-    width: 100% !important; /* LA DIRECTIVE QUI RÈGLE LE BUG */
-    margin: 0 auto !important; 
+/* ==========================================================
+   💥 ARTILLERIE LOURDE : OVERRIDE DIGITAL GARDEN
+   ========================================================== */
+:root {
+    --file-line-width: 1050px !important;
+    --line-width: 1050px !important;
+    --content-width: 1050px !important;
+}
+.dg-content-container, .markdown-preview-sizer, .markdown-preview-view {
+    max-width: 1050px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
 }
 
 /* RESET ET FOND HOLOGRAPHIQUE */
 body, .markdown-preview-view, .markdown-rendered { background-color: #010102 !important; font-family: 'Rajdhani', sans-serif !important; color: #b3b3b3 !important; }
-.eve-window { background: rgba(8, 9, 12, 0.9); border: 1px solid #333; box-shadow: 0 15px 50px rgba(0,0,0,1), inset 0 0 40px rgba(0,0,0,0.8); max-width: 1050px; width: 100%; margin: 0 auto; border-top: 3px solid #D4AF37; font-family: 'Rajdhani', sans-serif; position: relative; overflow: hidden; }
+
+/* LA FENÊTRE PRINCIPALE */
+.eve-window { background: rgba(8, 9, 12, 0.9); border: 1px solid #333; box-shadow: 0 15px 50px rgba(0,0,0,1), inset 0 0 40px rgba(0,0,0,0.8); width: 100%; max-width: 1050px; margin: 0 auto; border-top: 3px solid #D4AF37; font-family: 'Rajdhani', sans-serif; position: relative; overflow: hidden; }
 
 /* SCANLINES ET BRUIT CRT */
 .eve-window::after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255,0,0,0.03), rgba(0,255,255,0.02)); background-size: 100% 4px, 3px 100%; pointer-events: none; opacity: 0.6; z-index: 50; }
@@ -71,44 +77,40 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 .eve-alert-pulse { animation: pulseAlert 2s infinite; }
 .scan-line { position: absolute; left: 0; width: 100%; height: 2px; background: #fff; box-shadow: 0 0 10px #fff, 0 -8px 15px rgba(255,0,0,0.8), 0 8px 15px rgba(255,0,0,0.8); z-index: 10; animation: scanMove 2.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; pointer-events: none; border-radius: 50%; }
 
-.sync-bar-container { width: 100%; height: 3px; background: #111; margin-top: 10px; position: relative; overflow: hidden; border-radius: 2px; }
+.sync-bar-container { width: 100%; height: 3px; background: #111; margin-top: 15px; position: relative; overflow: hidden; border-radius: 2px; }
 .sync-bar-fill { height: 100%; background: linear-gradient(90deg, transparent, #7DF9FF); width: 100%; animation: loadingBar 2s ease-out forwards; box-shadow: 0 0 10px #7DF9FF; }
 .ai-waveform-container { display: flex; align-items: flex-end; gap: 3px; height: 18px; position: absolute; bottom: 15px; right: 15px; opacity: 0.9; }
 .waveform-bar { width: 3px; background-color: #7DF9FF; box-shadow: 0 0 8px #7DF9FF; border-radius: 1px; }
 
 /* ==========================================================
-   🛠️ RESPONSIVE DESIGN (POUR SMARTPHONES ET PETITS ÉCRANS)
+   🛡️ BOUCLIER ANTI-SAUCISSE (POUR PC)
+   ========================================================== */
+@media (min-width: 769px) {
+    .eve-window { min-width: 850px !important; }
+}
+
+/* ==========================================================
+   📱 RESPONSIVE DESIGN (POUR SMARTPHONES ET PETITS ÉCRANS)
    ========================================================== */
 @media (max-width: 768px) {
     .eve-main-flex { flex-direction: column; }
     
-    /* Le terminal de gauche passe en haut et devient plus petit */
     .eve-terminal-left { width: 100%; height: 120px; border-right: none; border-bottom: 1px solid #222; box-shadow: inset 0 -10px 20px rgba(0,0,0,0.9); }
     .eve-terminal-scroll { left: 10px; right: 10px; text-align: center; }
     
-    /* Ajustement des marges du contenu principal */
     .eve-content { padding: 20px 15px; }
     
-    /* Header (Titre plus petit pour rentrer sur l'écran) */
     .eve-window-header { flex-direction: column; text-align: center; gap: 10px; padding: 15px !important; }
     .eve-window-header strong { font-size: 12px !important; letter-spacing: 2px !important; }
     
-    /* Correction du chevauchement de texte sur iPhone */
-    .sync-header { height: 34px !important; }
-    .sync-msg-right { top: 16px !important; left: 0 !important; right: auto !important; font-size: 10px !important; }
-    
-    /* L'alerte MIO s'empile */
     .eve-alert-pulse { flex-direction: column-reverse; text-align: center; padding: 15px; }
     .eve-alert-pulse h3 { font-size: 16px !important; }
     
-    /* Profil et Data empilés */
     .eve-profile-container { flex-direction: column; align-items: center; text-align: center; gap: 20px !important; }
     
-    /* Tableaux plus compacts */
     .eve-table td:first-child { width: auto; display: block; padding-bottom: 2px; color: #D4AF37; }
     .eve-table td:last-child { display: block; padding-top: 2px; padding-bottom: 12px; }
     
-    /* Les lignes d'archives s'adaptent */
     .eve-row { flex-direction: column; align-items: flex-start; gap: 5px; }
     .eve-row div { text-align: left !important; }
 }
@@ -174,10 +176,12 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 <div class="eve-content">
 
 <div style="border: 1px solid #222; background: rgba(0, 15, 25, 0.4); padding: 15px; margin-bottom: 30px; font-family: monospace; font-size: 11px; letter-spacing: 1px; position: relative; box-shadow: inset 0 0 20px rgba(0,255,255,0.05);">
-  <div class="sync-header" style="display: flex; justify-content: space-between; position: relative; height: 16px;">
-    <div style="color: #666;">> INITIALIZING NEURAL PATHWAYS...</div>
-    <div class="sync-msg-right" style="animation: hideText 2s forwards; position: absolute; right: 0; color: #D4AF37; text-shadow: 0 0 5px #D4AF37;">SCANNING PILOT SIGNATURE [ WAIT ]</div>
-    <div class="sync-msg-right" style="animation: showText 2s forwards; opacity: 0; position: absolute; right: 0; color: #7DF9FF; font-weight: bold; text-shadow: 0 0 8px #7DF9FF;">SIGNATURE MATCHED [ SYNC 100% ]</div>
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
+    <div style="color: #666; flex: 1; min-width: 200px;">> INITIALIZING NEURAL PATHWAYS...</div>
+    <div style="position: relative; width: 220px; height: 16px;">
+      <div style="animation: hideText 2s forwards; position: absolute; right: 0; top: 0; color: #D4AF37; text-shadow: 0 0 5px #D4AF37; width: 100%; text-align: right;">SCANNING PILOT SIGNATURE [ WAIT ]</div>
+      <div style="animation: showText 2s forwards; opacity: 0; position: absolute; right: 0; top: 0; color: #7DF9FF; font-weight: bold; text-shadow: 0 0 8px #7DF9FF; width: 100%; text-align: right;">SIGNATURE MATCHED [ SYNC 100% ]</div>
+    </div>
   </div>
   <div class="sync-bar-container">
     <div class="sync-bar-fill"></div>
