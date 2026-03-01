@@ -83,6 +83,10 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
     .eve-window-header { flex-direction: column; text-align: center; gap: 10px; padding: 15px !important; }
     .eve-window-header strong { font-size: 12px !important; letter-spacing: 2px !important; }
     
+    /* Correction du chevauchement de texte sur iPhone */
+    .sync-header { height: 34px !important; }
+    .sync-msg-right { top: 16px !important; left: 0 !important; right: auto !important; font-size: 10px !important; }
+    
     /* L'alerte MIO s'empile */
     .eve-alert-pulse { flex-direction: column-reverse; text-align: center; padding: 15px; }
     .eve-alert-pulse h3 { font-size: 16px !important; }
@@ -160,10 +164,10 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 <div class="eve-content">
 
 <div style="border: 1px solid #222; background: rgba(0, 15, 25, 0.4); padding: 15px; margin-bottom: 30px; font-family: monospace; font-size: 11px; letter-spacing: 1px; position: relative; box-shadow: inset 0 0 20px rgba(0,255,255,0.05);">
-  <div style="display: flex; justify-content: space-between; position: relative; height: 16px;">
+  <div class="sync-header" style="display: flex; justify-content: space-between; position: relative; height: 16px;">
     <div style="color: #666;">> INITIALIZING NEURAL PATHWAYS...</div>
-    <div style="animation: hideText 2s forwards; position: absolute; right: 0; color: #D4AF37; text-shadow: 0 0 5px #D4AF37;">SCANNING PILOT SIGNATURE [ WAIT ]</div>
-    <div style="animation: showText 2s forwards; opacity: 0; position: absolute; right: 0; color: #7DF9FF; font-weight: bold; text-shadow: 0 0 8px #7DF9FF;">SIGNATURE MATCHED [ SYNC 100% ]</div>
+    <div class="sync-msg-right" style="animation: hideText 2s forwards; position: absolute; right: 0; color: #D4AF37; text-shadow: 0 0 5px #D4AF37;">SCANNING PILOT SIGNATURE [ WAIT ]</div>
+    <div class="sync-msg-right" style="animation: showText 2s forwards; opacity: 0; position: absolute; right: 0; color: #7DF9FF; font-weight: bold; text-shadow: 0 0 8px #7DF9FF;">SIGNATURE MATCHED [ SYNC 100% ]</div>
   </div>
   <div class="sync-bar-container">
     <div class="sync-bar-fill"></div>
@@ -263,4 +267,4 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 </a>
 </div>
 
-</div> </div> </div> ```
+</div> </div> </div>
