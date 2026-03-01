@@ -117,7 +117,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">III.</span>La Nuit des Cendres</div>
 </div>
 
-<p>Leur destinée bascula en YC 127. Suite à la révocation du Décret d'Heideran par l'Impératrice Catiz I, les guerres de l'ombre entre Maisons Nobles s'intensifièrent. Des factions conservatrices radicales, jalouses de l'ascension des Tash-Murkon, ciblèrent Lady Arissa lors d'un transit diplomatique.</p>
+<p>Tout bascula en YC 127, point de rupture d'une tension qui montait crescendo depuis la révocation du Décret d'Heideran en YC 121. Ce qui n'était alors qu'une décision impériale de Catiz I s'était mué, en six ans, en une guerre de l'ombre totale. Portées par une haine viscérale de l'ascension des Tash-Murkon, des factions conservatrices radicales finirent par briser le silence diplomatique en prenant Lady Arissa pour cible</p>
 <p>Le sabotage fut d'une subtilité venimeuse : une neurotoxine militaire inodore infiltrée dans le circuit de recyclage d'air pour simuler une défaillance organique. Les capteurs environnementaux de l'armure d'Ithika hurlèrent une alerte une poignée de secondes avant la léthalité totale.</p>
 
 <div style="display: flex; justify-content: center; margin: 40px 0;">
@@ -140,7 +140,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">IV.</span>Le Sacrilège de la Capsule</div>
 </div>
 
-<p>Pendant une année standard, le corps brisé d'Ithika fut maintenu dans un caisson de stase cryogénique, dissimulé dans les tréfonds d'un complexe orbital privé.</p>
+<p>Pendant une année standard, le corps brisé d’Ithika demeura suspendu dans le silence d’un caisson de stase, dissimulé au cœur d’un complexe orbital privé. Mais Arissa ne cherchait pas seulement à préserver sa dépouille : elle finançait l'indicible. Dans l'Empire, l'accès aux protocoles de transfert de conscience est un privilège divin strictement hiérarchisé ; tenter d'offrir l'éternité à un simple Minor Holder par des voies clandestines constituait une hérésie infomorphe sans précédent.</p>
 
 <div style="display: flex; justify-content: center; margin: 40px 0;">
 <div style="position: relative; padding: 12px; background: #050505; border: 1px solid #222; box-shadow: 0 10px 30px rgba(0,0,0,0.8);">
@@ -153,7 +153,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 </div>
 </div>
 
-<p>Mais l'Empire exige une transparence absolue. Avant même que le nouveau corps ne soit prêt, les flux massifs de crédits alertèrent l'Inquisition. Arrachée à ses appartements par les Ordinators du Ministère de l'Ordre Interne, Lady Arissa fut déchue et livrée au Conseil de Théologie sous le prétexte d'une « retraite spirituelle perpétuelle ».</p>
+<p>Ce fut l'Impératrice Catiz I elle-même qui signa l'arrêt de mort sociale de sa parente. Alertée par l'Inquisition de flux massifs de crédits vers des laboratoires de clonage illégaux, l'Impératrice ne pouvait faiblir. Pour une souveraine dont la légitimité était déjà contestée par les lignées traditionnelles, couvrir un tel sacrilège en faveur d'un petit noble aurait été un suicide politique. Elle ordonna aux Ordinators du Ministère de l'Ordre Interne de purger l'anomalie. Arrachée à son sanctuaire, Lady Arissa fut déchue et livrée au Conseil de Théologie, condamnée à l'oubli sous le voile d'une "retraite spirituelle perpétuelle"</p>
 
 <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 40px 0;">
 <div style="position: relative; padding: 12px; background: #050505; border: 1px solid #222; box-shadow: 0 10px 30px rgba(0,0,0,0.8);">
@@ -175,7 +175,9 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 </div>
 </div>
 
-<p>Enfreignant la « Doctrine de la Chair Sacrée », les savants qu'elle avait grassement payés activèrent le protocole final alors que les troupes impériales forçaient les portes du complexe. Le laser de combustion balaya et incinéra le cerveau d'Ithika en pleine activité, extrayant son âme par un snapshot cortical violent juste avant la mort biologique. Lorsque les agents du MIO investirent enfin la salle, ils ne purent que constater l'irréversible : le Sacrilège était consommé.</p>
+<p>Cependant, le MIO échoua à s'emparer d'Ithika avant l'acte final. Enfreignant la « Doctrine de la Chair Sacrée », les savants qu'Arissa avait grassement payés activèrent le protocole ultime alors que les troupes impériales forçaient les portes du complexe.
+
+Le laser de combustion balaya et incinéra le cerveau d'Ithika en pleine activité, extrayant son essence par un snapshot cortical violent quelques millisecondes avant la mort biologique. Lorsque les agents du MIO investirent enfin la salle, ils ne purent que constater l'irréversible : la chair était calcinée, mais l'esprit s'était envolé. Le Sacrilège était consommé.</p>
 
 
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">

@@ -117,7 +117,9 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">III.</span>The Night of Ashes</div>
 </div>
 
-<p>Their destiny shifted in YC 127. The sabotage was of a venomous subtlety: an odorless military neurotoxin infiltrated into the air recycling circuit to simulate an organic failure. The environmental sensors of Ithika's armor screamed an alert a handful of seconds before total lethality.</p>
+<p>Everything changed in YC 127, the breaking point of a tension that had been building crescendo since the revocation of the Heideran Decree in YC 121. What began as a mere imperial decision by Catiz I had, over six years, spiraled into an all-out shadow war. Driven by a visceral hatred of the Tash-Murkon’s rise, radical conservative factions finally shattered the diplomatic silence by targeting Lady Arissa.
+
+**The sabotage was of a venomous subtlety: an odorless, military-grade neurotoxin infiltrated the air recycling system to simulate an organic failure. The environmental sensors in Ithika’s armor shrieked an alert only seconds before the gas reached lethal concentrations.</p>
 
 <div style="display: flex; justify-content: center; margin: 40px 0;">
 <div style="position: relative; padding: 12px; background: #050505; border: 1px solid #222; box-shadow: 0 10px 30px rgba(0,0,0,0.8);">
@@ -130,7 +132,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 </div>
 </div>
 
-<p>By reflex, he shoved Arissa into the Panic-Vault, the reinforced survival airlock. Only manual locking from the outside could seal the door, the internal panel having been neutralized. Ithika accepted remaining in the poison-saturated cabin to ensure the airlock's integrity. While his lungs filled with death and his nervous system collapsed, Arissa, helpless behind the armored glass, triggered the fire protocols.</p>
+<p>By reflex, he shoved Arissa into the Panic-Vault, the reinforced survival pod. Since the internal panel had been neutralized, only a manual override from the outside could seal the door. Ithika accepted his fate, remaining in the poison-saturated cabin to ensure the vault's airtight seal. He locked the chamber, gifting Lady Arissa her life. As his lungs gorged on death and his nervous system collapsed, Arissa—powerless behind the armored glass—triggered the fire suppression protocols. She flooded the zone with cryogenic foam, suspending Ithika’s agony in a glacial coma at the precise moment the neurotoxin was about to consume his cortex.</p>
 
 
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">
@@ -139,7 +141,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">IV.</span>The Sacrilege of the Capsule</div>
 </div>
 
-<p>For one standard year, Ithika's broken body was maintained in a cryogenic stasis pod, hidden deep within a private orbital complex.</p>
+<p>For one standard year, Ithika’s shattered body remained suspended in the silence of a stasis pod, hidden deep within a private orbital complex. Yet Arissa sought more than the mere preservation of his remains: she was financing the unthinkable. In the Empire, access to consciousness-transfer protocols is a strictly hierarchical divine privilege; attempting to grant eternity to a mere Minor Holder through clandestine means constituted an unprecedented infomorph heresy.</p>
 
 <div style="display: flex; justify-content: center; margin: 40px 0;">
 <div style="position: relative; padding: 12px; background: #050505; border: 1px solid #222; box-shadow: 0 10px 30px rgba(0,0,0,0.8);">
@@ -152,7 +154,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 </div>
 </div>
 
-<p>But the Empire demands absolute transparency. Even before the new body was ready, massive credit flows alerted the Inquisition. Torn from her apartments by the Ordinators of the Ministry of Internal Order, Lady Arissa was stripped of her rank and delivered to the Theology Council under the pretext of a "perpetual spiritual retreat".</p>
+<p>It was Empress Catiz I herself who signed her kinswoman’s social death warrant. Alerted by the Inquisition to massive credit flows toward illegal cloning facilities, the Empress could not falter. For a sovereign whose legitimacy was already contested by traditionalist lineages, shielding such a sacrilege for a low-ranking noble would have been political suicide. She ordered the Ordinators of the Ministry of Internal Order to purge the anomaly. Torn from her sanctuary, Lady Arissa was stripped of her rank and delivered to the Theology Council, condemned to oblivion under the guise of a "perpetual spiritual retreat."</p>
 
 <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 40px 0;">
 <div style="position: relative; padding: 12px; background: #050505; border: 1px solid #222; box-shadow: 0 10px 30px rgba(0,0,0,0.8);">
@@ -174,7 +176,9 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 </div>
 </div>
 
-<p>Violating the "Doctrine of the Sacred Flesh," her scientists activated the final protocol. The combustion laser swept and incinerated his brain in full activity, extracting his soul through a violent cortical snapshot just before biological death. When MIO agents finally stormed the transfer room, they could only witness the irreversible: the Sacrilege was consumed.</p>
+<p>However, the MIO failed to secure Ithika before the final act. Defying the "Doctrine of the Sacred Flesh," the scientists Arissa had handsomely paid triggered the ultimate protocol even as Imperial troops breached the complex doors.
+
+The combustion laser swept across and incinerated Ithika’s brain at the peak of its activity, extracting his essence through a violent cortical snapshot mere milliseconds before biological death. When the MIO agents finally stormed the chamber, they could only witness the irreversible: the flesh was charred, but the spirit had fled. The Sacrilege was complete.</p>
 
 
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">
