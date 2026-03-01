@@ -5,8 +5,15 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 
-/* OVERRIDE DIGITAL GARDEN CONTAINER WIDTH (Pour casser la colonne étroite sur PC) */
-.dg-content-container, .markdown-preview-view, .markdown-rendered { max-width: 1100px !important; margin: 0 auto !important; }
+/* OVERRIDE DIGITAL GARDEN CONTAINER WIDTH (Correction du bug de compression PC) */
+.dg-content-container, 
+.markdown-preview-view, 
+.markdown-rendered,
+.markdown-preview-sizer { 
+    max-width: 1100px !important; 
+    width: 100% !important; /* LA DIRECTIVE QUI RÈGLE LE BUG */
+    margin: 0 auto !important; 
+}
 
 /* RESET ET FOND HOLOGRAPHIQUE */
 body, .markdown-preview-view, .markdown-rendered { background-color: #010102 !important; font-family: 'Rajdhani', sans-serif !important; color: #b3b3b3 !important; }
@@ -18,7 +25,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #010102 !im
 /* LAYOUT PRINCIPAL */
 .eve-main-flex { display: flex; align-items: stretch; position: relative; z-index: 1; }
 
-/* TERMINAL DE PIRATAGE ULTRA-RÉALISTE (Élargi à 220px pour PC) */
+/* TERMINAL DE PIRATAGE ULTRA-RÉALISTE */
 .eve-terminal-left { width: 220px; flex-shrink: 0; background: #000; border-right: 1px solid #222; position: relative; overflow: hidden; padding: 0; font-family: monospace; color: #7DF9FF; box-shadow: inset -10px 0 20px rgba(0,0,0,0.9); -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%); mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%); }
 .eve-terminal-scroll { position: absolute; top: 0; left: 15px; right: 10px; animation: scrollHack 15s linear infinite; }
 .eve-terminal-scroll p { margin: 0; padding: 2px 0; font-size: 11px; line-height: 1.3; text-shadow: 0 0 6px rgba(125, 249, 255, 0.8); opacity: 0.85; letter-spacing: 0.5px; }
