@@ -282,7 +282,7 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 <div style="flex: 2; display: flex; align-items: center; gap: 12px;">
 <span style="color: #D4AF37; font-size: 16px; filter: drop-shadow(0 0 5px #D4AF37);">📓</span>
 
-[[FR - Journal de bord 02-YC128\|FR - Journal de bord 02-YC128]]
+[[ARCHIVES MIO/FR - Journal de bord 02-YC12\|FR - Journal de bord 02-YC12]]
 
 </div>
 <div style="flex: 1; color: #666; font-size: 11px; letter-spacing: 2px;">SÉC: <span style="color: #D4AF37;">RESTREINT</span></div>
