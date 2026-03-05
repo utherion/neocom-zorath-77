@@ -884,7 +884,7 @@ RESTRICTED ACCESS PROTOCOL
 <div style="flex: 2; display: flex; align-items: center;">
 <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
 
-[[ARCHIVES MIO/FR - Journal de bord 02-YC12\|FR - Journal de bord 02-YC12]]
+[[ARCHIVES MIO/FR - Journal de bord 02-YC128\|FR - Journal de bord 02-YC128]]
 
 </div>
 <div style="flex: 1;"><span class="eve-badge" style="color: var(--eve-gold);">RESTREINT</span></div>
