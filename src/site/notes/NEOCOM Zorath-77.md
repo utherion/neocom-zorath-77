@@ -906,59 +906,7 @@ RESTRICTED ACCESS PROTOCOL
 <span class="eve-btn-label" style="color: var(--eve-cyan);">Deadspace Anomalies</span>
 <span class="eve-btn-title">[ Abyssal Telemetry ]</span>
 </a>
-<div style="margin-top: 50px;">
 
-<h4 style="color: #555; border-bottom: 1px solid #333; padding-bottom: 10px; margin: 0 0 20px 0; font-size: 14px; letter-spacing: 3px; text-transform: uppercase;">Transmission Log // Journal de Passage</h4>
-
-<div style="border: 1px solid #222; background: rgba(0, 0, 0, 0.6); margin-bottom: 30px; box-shadow: inset 0 0 20px rgba(0,0,0,1);">
-
-<div style="background: linear-gradient(90deg, rgba(125, 249, 255, 0.08), transparent); padding: 10px 15px; border-bottom: 1px solid #222; display: flex; justify-content: space-between; align-items: center;">
-<div style="color: #7DF9FF; font-size: 12px; letter-spacing: 2px; font-family: monospace;"><strong>> SYS.RELAY // CANAL_OUVERT</strong></div>
-<div style="display: flex; align-items: center; gap: 6px; font-family: monospace; font-size: 11px; color: #555; letter-spacing: 1px;">
-<span style="width: 6px; height: 6px; background: #7DF9FF; border-radius: 50%; box-shadow: 0 0 6px #7DF9FF; display: inline-block;"></span> SIGNAL ACTIF
-</div>
-</div>
-
-<div style="padding: 20px; border-bottom: 1px solid #1a1a1a; font-family: monospace; font-size: 11px; letter-spacing: 1px;">
-<div style="color: #D4AF37; margin-bottom: 12px;">[ FR ] // TRANSMISSION OUVERTE</div>
-<div style="color: #888; line-height: 1.8; font-style: italic; margin-bottom: 18px;">
-Le MIO surveille chaque impulsion de données traversant ce nœud.<br>
-Pourtant, certains choisissent encore de laisser une trace.<br>
-Capsulier, Holder, ou simple voyageur du vide —<br>
-si tu lis ces archives, grave ton passage dans la mémoire du système.<br>
-<span style="color: #555;">// Toute transmission est publique, permanente, et indexée par les Ordinateurs de l'Ordre.</span>
-</div>
-<div style="color: #7DF9FF; margin-bottom: 12px;">[ EN ] // OPEN CHANNEL</div>
-<div style="color: #888; line-height: 1.8; font-style: italic;">
-The MIO monitors every data pulse passing through this node.<br>
-Yet some still choose to leave a mark.<br>
-Capsuleer, Holder, or simple wanderer of the void —<br>
-if you are reading these archives, etch your passage into the system's memory.<br>
-<span style="color: #555;">// All transmissions are public, permanent, and indexed by the Ordinators of the Order.</span>
-</div>
-</div>
-
-<div style="padding: 20px;" id="giscus-container">
-<script src="https://giscus.app/client.js"
-        data-repo="utherion/neocom-zorath-77"
-        data-repo-id="R_kgDORbW1dQ"
-        data-category="General"
-        data-category-id="DIC_kwDORbW1dc4C3wxn"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="fr"
-        crossorigin="anonymous"
-        async>
-</script>
-</div>
-
-</div>
-
-</div>
 </div>
 
 </div>
