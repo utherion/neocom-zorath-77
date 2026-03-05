@@ -258,6 +258,16 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 <div style="flex: 1; color: #666; font-size: 11px; letter-spacing: 2px; text-align: right;">SIZE: 2.4 TB</div>
 </div>
 
+<div class="eve-row">
+<div style="flex: 2; display: flex; align-items: center; gap: 12px;">
+<span style="color: #D4AF37; font-size: 16px; filter: drop-shadow(0 0 5px #D4AF37);">📓</span>
+
+[[ARCHIVES MIO/EN - Logbook 02-YC128\|EN - Logbook 02-YC128]]
+
+</div>
+<div style="flex: 1; color: #666; font-size: 11px; letter-spacing: 2px;">SEC: <span style="color: #D4AF37;">RESTRICTED</span></div>
+<div style="flex: 1; color: #666; font-size: 11px; letter-spacing: 2px; text-align: right;">02 / YC128</div>
+</div>
 
 <div style="background: linear-gradient(90deg, rgba(212, 175, 55, 0.1), transparent); padding: 10px 15px; border-bottom: 1px solid #222; border-top: 1px solid #222; color: #D4AF37; font-size: 12px; letter-spacing: 2px;">
 <strong>SYS.LANG // FRANÇAIS</strong>
