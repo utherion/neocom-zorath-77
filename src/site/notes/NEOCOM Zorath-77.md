@@ -231,6 +231,11 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
     border: 1px solid #3a3a3e; padding: 4px; background: #000;
     position: relative; box-shadow: 0 8px 25px rgba(0,0,0,0.9); flex-shrink: 0;
 }
+.eve-profile-frame img, .eve-profile-frame p img {
+    width: 100% !important; max-width: 100% !important;
+    height: auto !important; display: block !important; margin: 0 !important;
+}
+.eve-profile-frame p { margin: 0 !important; padding: 0 !important; line-height: 0 !important; }
 .eve-profile-frame::before {
     content: ""; position: absolute; top: -1px; left: -1px; width: 16px; height: 16px;
     border-top: 2px solid var(--eve-gold); border-left: 2px solid var(--eve-gold); z-index: 11;
@@ -386,28 +391,28 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
   </div>
 
   <!-- BLOC PRINCIPAL : PROFIL GAUCHE + INDEX DROITE -->
-  <div class="eve-two-col" style="display:flex;gap:24px;align-items:flex-start;margin-bottom:28px;">
+  <div class="eve-two-col" style="display:flex;gap:20px;align-items:flex-start;margin-bottom:28px;">
 
     <!-- COLONNE GAUCHE : Portrait + Bio -->
-    <div style="width:210px;flex-shrink:0;">
-      <div class="eve-section-label" style="margin-bottom:12px;">Biometric Data</div>
-      <div class="eve-profile-frame" style="width:100%;margin-bottom:14px;">
+    <div style="width:180px;flex-shrink:0;flex-grow:0;">
+      <div class="eve-section-label" style="margin-bottom:10px;">Biometric Data</div>
+      <div class="eve-profile-frame" style="width:172px;overflow:hidden;margin-bottom:12px;">
         <div class="scan-line"></div>
 
 ![Portrait.jpg](/img/user/Images/Portrait.jpg)
 
       </div>
-      <table class="eve-table">
+      <table class="eve-table" style="width:172px;">
         <tr><td>Callsign</td><td>Ithika Zorath</td></tr>
-        <tr><td>Status</td><td style="color:var(--eve-cyan);font-family:var(--font-data);font-size:12px;">Capsuleer <span style="color:#4a8a8e;">[ ACTIVE ]</span></td></tr>
+        <tr><td>Status</td><td style="color:var(--eve-cyan);font-family:var(--font-data);font-size:11px;">Capsuleer <span style="color:#4a8a8e;">[ ACTIVE ]</span></td></tr>
         <tr><td>Origin</td><td style="color:#aaa;">Nafomeh III</td></tr>
-        <tr><td>House</td><td style="color:var(--eve-gold);font-family:var(--font-lore);font-size:12px;">Tash-Murkon</td></tr>
-        <tr><td>Year</td><td style="color:#666;font-family:var(--font-data);font-size:12px;">YC128</td></tr>
+        <tr><td>House</td><td style="color:var(--eve-gold);font-family:var(--font-lore);font-size:11px;">Tash-Murkon</td></tr>
+        <tr><td>Year</td><td style="color:#666;font-family:var(--font-data);font-size:11px;">YC128</td></tr>
       </table>
     </div>
 
     <!-- COLONNE DROITE : Index -->
-    <div style="flex:1;min-width:0;">
+    <div style="flex:1;min-width:0;overflow:hidden;">
       <div class="eve-section-label" style="margin-bottom:12px;">Index Manager</div>
       <div class="eve-index-container">
 
