@@ -390,98 +390,160 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
     <img src="https://image.eveonline.com/Corporation/1000082_128.png" width="52" style="filter:drop-shadow(0 0 12px #ff0000);flex-shrink:0;">
   </div>
 
-  <!-- ═══ PROFIL CARD ═══ -->
-  <div style="display:grid;grid-template-columns:200px 1px 1fr;border:1px solid #2a2a2e;background:rgba(0,0,0,0.6);margin-bottom:22px;overflow:hidden;border-top:2px solid #8B6914;">
+  <!-- ═══ PROFIL + INDEX ═══ -->
+  <table border="0" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;margin-bottom:22px;">
+  <tbody>
 
-    <!-- Portrait -->
-    <div style="position:relative;overflow:hidden;background:#000;height:200px;">
-      <div class="scan-line"></div>
-      <img src="https://images.evetech.net/characters/2124123129/portrait?size=512" alt="Ithika Zorath" style="width:200px;height:200px;display:block;object-fit:cover;object-position:top center;">
-      <div style="position:absolute;bottom:0;left:0;right:0;height:50px;background:linear-gradient(to top,rgba(0,0,0,0.85),transparent);pointer-events:none;"></div>
-      <div style="position:absolute;bottom:7px;left:9px;font-family:var(--font-data);font-size:8px;color:#8B6914;letter-spacing:2px;">MIO // CAPSULEER</div>
-    </div>
+    <!-- ROW 1 : Profil card -->
+    <tr>
+      <td colspan="3" style="padding:0;border:1px solid #2a2a2e;border-top:2px solid #8B6914;background:#000;">
+        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+        <tbody><tr>
 
-    <!-- Séparateur doré vertical -->
-    <div style="background:linear-gradient(to bottom,transparent,#8B6914 30%,#8B6914 70%,transparent);"></div>
+          <!-- Portrait -->
+          <td style="width:200px;padding:0;vertical-align:top;border-right:1px solid #8B6914;background:#000;">
+            <div style="position:relative;width:200px;height:200px;overflow:hidden;">
+              <img src="https://images.evetech.net/characters/2124123129/portrait?size=512" alt="" width="200" height="200" style="display:block;width:200px;height:200px;object-fit:cover;object-position:top;">
+              <div style="position:absolute;bottom:0;left:0;right:0;height:50px;background:linear-gradient(to top,rgba(0,0,0,0.9),transparent);"></div>
+              <div style="position:absolute;bottom:7px;left:9px;font-family:'Share Tech Mono',monospace;font-size:8px;color:#8B6914;letter-spacing:2px;">MIO // CAPSULEER</div>
+            </div>
+          </td>
 
-    <!-- Données bio -->
-    <div style="padding:16px 22px;display:flex;flex-direction:column;justify-content:center;">
-      <div style="font-family:var(--font-lore);color:var(--eve-gold);font-size:9px;letter-spacing:4px;text-transform:uppercase;border-bottom:1px solid rgba(212,175,55,0.15);padding-bottom:8px;margin-bottom:10px;">Biometric Data</div>
-      <div style="display:grid;grid-template-columns:110px 1fr;border-bottom:1px solid rgba(212,175,55,0.07);padding:6px 0;">
-        <span style="font-family:var(--font-ui);color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;align-self:center;">Designation</span>
-        <span style="font-family:var(--font-body);color:#f0f0f0;font-size:17px;font-weight:700;letter-spacing:1px;">Ithika Zorath</span>
-      </div>
-      <div style="display:grid;grid-template-columns:110px 1fr;border-bottom:1px solid rgba(212,175,55,0.07);padding:6px 0;">
-        <span style="font-family:var(--font-ui);color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;align-self:center;">Bio-Tech</span>
-        <span style="font-family:var(--font-data);color:var(--eve-cyan);font-size:12px;">Capsuleer <span style="color:#3a7a7e;">[ ACTIVE ]</span></span>
-      </div>
-      <div style="display:grid;grid-template-columns:110px 1fr;border-bottom:1px solid rgba(212,175,55,0.07);padding:6px 0;">
-        <span style="font-family:var(--font-ui);color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;align-self:center;">Origin</span>
-        <span style="font-family:var(--font-body);color:#999;font-size:14px;">Nafomeh III</span>
-      </div>
-      <div style="display:grid;grid-template-columns:110px 1fr;border-bottom:1px solid rgba(212,175,55,0.07);padding:6px 0;">
-        <span style="font-family:var(--font-ui);color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;align-self:center;">Allegiance</span>
-        <span style="font-family:var(--font-lore);color:var(--eve-gold);font-size:13px;">House Tash-Murkon</span>
-      </div>
-      <div style="display:grid;grid-template-columns:110px 1fr;padding:6px 0;">
-        <span style="font-family:var(--font-ui);color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;align-self:center;">Timestamp</span>
-        <span style="font-family:var(--font-data);color:#333;font-size:11px;letter-spacing:1px;">YC128.02</span>
-      </div>
-    </div>
+          <!-- Données bio -->
+          <td style="padding:16px 22px;vertical-align:top;background:rgba(0,0,0,0.5);">
+            <div style="font-family:'Cinzel',serif;color:#D4AF37;font-size:9px;letter-spacing:4px;text-transform:uppercase;border-bottom:1px solid rgba(212,175,55,0.2);padding-bottom:7px;margin-bottom:10px;">Biometric Data</div>
+            <table border="0" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+            <tbody>
+              <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+                <td style="font-family:'Electrolize',monospace;color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:7px 12px 7px 0;width:110px;">Designation</td>
+                <td style="font-family:'Rajdhani',sans-serif;color:#f0f0f0;font-size:18px;font-weight:700;letter-spacing:1px;padding:7px 0;">Ithika Zorath</td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+                <td style="font-family:'Electrolize',monospace;color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:7px 12px 7px 0;">Bio-Tech</td>
+                <td style="font-family:'Share Tech Mono',monospace;color:#7DF9FF;font-size:12px;padding:7px 0;">Capsuleer <span style="color:#3a7a7e;">[ ACTIVE ]</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+                <td style="font-family:'Electrolize',monospace;color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:7px 12px 7px 0;">Origin</td>
+                <td style="font-family:'Rajdhani',sans-serif;color:#999;font-size:14px;padding:7px 0;">Nafomeh III</td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+                <td style="font-family:'Electrolize',monospace;color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:7px 12px 7px 0;">Allegiance</td>
+                <td style="font-family:'Cinzel',serif;color:#D4AF37;font-size:13px;padding:7px 0;">House Tash-Murkon</td>
+              </tr>
+              <tr>
+                <td style="font-family:'Electrolize',monospace;color:#444;font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:7px 12px 7px 0;">Timestamp</td>
+                <td style="font-family:'Share Tech Mono',monospace;color:#333;font-size:11px;letter-spacing:1px;padding:7px 0;">YC128.02</td>
+              </tr>
+            </tbody></table>
+          </td>
 
-  </div>
+        </tr></tbody>
+        </table>
+      </td>
+    </tr>
 
-  <!-- ═══ INDEX MANAGER ═══ -->
-  <div class="eve-section-label">Index Manager</div>
-  <div style="border:1px solid #2a2a2e;background:rgba(0,0,0,0.7);margin-bottom:22px;">
+    <!-- SPACER -->
+    <tr><td colspan="3" style="height:20px;border:none;background:transparent;"></td></tr>
 
-    <div style="background:linear-gradient(90deg,rgba(212,175,55,0.1),transparent);padding:6px 14px;border-bottom:1px solid rgba(212,175,55,0.2);display:flex;align-items:center;gap:8px;">
-      <span style="width:8px;height:8px;background:#8B6914;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);flex-shrink:0;display:inline-block;"></span>
-      <span style="font-family:var(--font-ui);color:var(--eve-gold);font-size:10px;letter-spacing:3px;">SYS.LANG // ENGLISH</span>
-    </div>
-    <div style="padding:6px 14px 6px 20px;display:flex;align-items:center;gap:7px;border-bottom:1px solid #1a1a1e;background:rgba(255,255,255,0.006);">
-      <span style="font-size:8px;color:#555;font-family:var(--font-ui);">▼</span>
-      <svg width="12" height="12" viewBox="0 0 13 13" style="flex-shrink:0;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>
-      <span style="font-family:var(--font-ui);color:#888;font-size:11px;letter-spacing:2px;text-transform:uppercase;">MIO Archives</span>
-    </div>
-    <div style="padding:9px 14px 9px 30px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,0.025);border-left:3px solid transparent;">
-      <svg style="width:13px;height:13px;flex-shrink:0;" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
-      <a class="internal-link" href="EN - ARCHIVES OF HOUSE TASH-MURKON" style="flex:1;font-family:var(--font-body);color:#ccc;font-size:13px;text-decoration:none;">EN — ARCHIVES OF HOUSE TASH-MURKON</a>
-      <span style="font-family:var(--font-data);font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid var(--eve-red);color:var(--eve-red);">CLASSIFIED</span>
-      <span style="font-family:var(--font-data);font-size:10px;color:#333;letter-spacing:1px;min-width:55px;text-align:right;">2.4 TB</span>
-    </div>
-    <div style="padding:9px 14px 9px 30px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,0.025);border-left:3px solid transparent;">
-      <svg style="width:13px;height:13px;flex-shrink:0;" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
-      <a class="internal-link" href="EN - Logbook 02-YC128" style="flex:1;font-family:var(--font-body);color:#ccc;font-size:13px;text-decoration:none;">EN — Logbook 02-YC128</a>
-      <span style="font-family:var(--font-data);font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid var(--eve-gold);color:var(--eve-gold);">RESTRICTED</span>
-      <span style="font-family:var(--font-data);font-size:10px;color:#333;letter-spacing:1px;min-width:55px;text-align:right;">02 / YC128</span>
-    </div>
+    <!-- ROW 2 : Section label Index -->
+    <tr>
+      <td colspan="3" style="border:none;padding:0 0 12px 0;">
+        <div style="font-family:'Electrolize',monospace;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#555;border-bottom:1px solid #2a2a2e;padding-bottom:7px;display:flex;align-items:center;gap:8px;">
+          <span style="display:inline-block;width:8px;height:8px;background:#8B6914;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);"></span>
+          Index Manager
+        </div>
+      </td>
+    </tr>
 
-    <div style="background:linear-gradient(90deg,rgba(212,175,55,0.1),transparent);padding:6px 14px;border-bottom:1px solid rgba(212,175,55,0.2);border-top:1px solid rgba(212,175,55,0.1);display:flex;align-items:center;gap:8px;">
-      <span style="width:8px;height:8px;background:#8B6914;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);flex-shrink:0;display:inline-block;"></span>
-      <span style="font-family:var(--font-ui);color:var(--eve-gold);font-size:10px;letter-spacing:3px;">SYS.LANG // FRANÇAIS</span>
-    </div>
-    <div style="padding:6px 14px 6px 20px;display:flex;align-items:center;gap:7px;border-bottom:1px solid #1a1a1e;background:rgba(255,255,255,0.006);">
-      <span style="font-size:8px;color:#555;font-family:var(--font-ui);">▼</span>
-      <svg width="12" height="12" viewBox="0 0 13 13" style="flex-shrink:0;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>
-      <span style="font-family:var(--font-ui);color:#888;font-size:11px;letter-spacing:2px;text-transform:uppercase;">Archives MIO</span>
-    </div>
-    <div style="padding:9px 14px 9px 30px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,0.025);border-left:3px solid transparent;">
-      <svg style="width:13px;height:13px;flex-shrink:0;" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
-      <a class="internal-link" href="FR - ARCHIVES OF HOUSE TASH-MURKON" style="flex:1;font-family:var(--font-body);color:#ccc;font-size:13px;text-decoration:none;">FR — ARCHIVES OF HOUSE TASH-MURKON</a>
-      <span style="font-family:var(--font-data);font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid var(--eve-red);color:var(--eve-red);">CLASSIFIÉ</span>
-      <span style="font-family:var(--font-data);font-size:10px;color:#333;letter-spacing:1px;min-width:55px;text-align:right;">2.4 TB</span>
-    </div>
-    <div style="padding:9px 14px 9px 30px;display:flex;align-items:center;gap:10px;border-left:3px solid transparent;">
-      <svg style="width:13px;height:13px;flex-shrink:0;" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
-      <a class="internal-link" href="FR - Journal de bord 02-YC128" style="flex:1;font-family:var(--font-body);color:#ccc;font-size:13px;text-decoration:none;">FR — Journal de bord 02-YC128</a>
-      <span style="font-family:var(--font-data);font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid var(--eve-gold);color:var(--eve-gold);">RESTREINT</span>
-      <span style="font-family:var(--font-data);font-size:10px;color:#333;letter-spacing:1px;min-width:55px;text-align:right;">02 / YC128</span>
-    </div>
+    <!-- ROW 3 : Index container -->
+    <tr>
+      <td colspan="3" style="padding:0;border:1px solid #2a2a2e;background:rgba(0,0,0,0.7);">
+        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+        <tbody>
 
-  </div>
+          <!-- EN header -->
+          <tr><td colspan="3" style="background:linear-gradient(90deg,rgba(212,175,55,0.12),rgba(212,175,55,0.02) 60%,transparent);padding:6px 14px;border-bottom:1px solid rgba(212,175,55,0.2);">
+            <span style="display:inline-block;width:8px;height:8px;background:#8B6914;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);margin-right:7px;vertical-align:middle;"></span>
+            <span style="font-family:'Electrolize',monospace;color:#D4AF37;font-size:10px;letter-spacing:3px;">SYS.LANG // ENGLISH</span>
+          </td></tr>
+          <!-- EN folder -->
+          <tr><td colspan="3" style="padding:6px 14px 6px 20px;border-bottom:1px solid #1a1a1e;background:rgba(255,255,255,0.006);">
+            <span style="font-family:'Electrolize',monospace;color:#555;font-size:8px;margin-right:6px;">▼</span>
+            <span style="font-family:'Electrolize',monospace;color:#888;font-size:11px;letter-spacing:2px;text-transform:uppercase;">MIO Archives</span>
+          </td></tr>
+          <!-- EN file 1 -->
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.025);">
+            <td style="padding:9px 0 9px 30px;width:20px;">
+              <span style="font-family:'Electrolize',monospace;color:#2a2a2a;font-size:7px;">▶</span>
+            </td>
+            <td style="padding:9px 8px;">
+              <svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
+              <a class="internal-link" href="EN - ARCHIVES OF HOUSE TASH-MURKON" style="font-family:'Rajdhani',sans-serif;color:#ccc;font-size:13px;text-decoration:none;">EN — ARCHIVES OF HOUSE TASH-MURKON</a>
+            </td>
+            <td style="padding:9px 14px;text-align:right;white-space:nowrap;">
+              <span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid #ff4d4d;color:#ff4d4d;">CLASSIFIED</span>
+              <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:#333;letter-spacing:1px;margin-left:12px;">2.4 TB</span>
+            </td>
+          </tr>
+          <!-- EN file 2 -->
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.025);">
+            <td style="padding:9px 0 9px 30px;">
+              <span style="font-family:'Electrolize',monospace;color:#2a2a2a;font-size:7px;">▶</span>
+            </td>
+            <td style="padding:9px 8px;">
+              <svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
+              <a class="internal-link" href="EN - Logbook 02-YC128" style="font-family:'Rajdhani',sans-serif;color:#ccc;font-size:13px;text-decoration:none;">EN — Logbook 02-YC128</a>
+            </td>
+            <td style="padding:9px 14px;text-align:right;white-space:nowrap;">
+              <span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid #D4AF37;color:#D4AF37;">RESTRICTED</span>
+              <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:#333;letter-spacing:1px;margin-left:12px;">02 / YC128</span>
+            </td>
+          </tr>
 
-  <!-- SÉPARATEUR -->
+          <!-- FR header -->
+          <tr><td colspan="3" style="background:linear-gradient(90deg,rgba(212,175,55,0.12),rgba(212,175,55,0.02) 60%,transparent);padding:6px 14px;border-bottom:1px solid rgba(212,175,55,0.2);border-top:1px solid rgba(212,175,55,0.1);">
+            <span style="display:inline-block;width:8px;height:8px;background:#8B6914;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);margin-right:7px;vertical-align:middle;"></span>
+            <span style="font-family:'Electrolize',monospace;color:#D4AF37;font-size:10px;letter-spacing:3px;">SYS.LANG // FRANÇAIS</span>
+          </td></tr>
+          <!-- FR folder -->
+          <tr><td colspan="3" style="padding:6px 14px 6px 20px;border-bottom:1px solid #1a1a1e;background:rgba(255,255,255,0.006);">
+            <span style="font-family:'Electrolize',monospace;color:#555;font-size:8px;margin-right:6px;">▼</span>
+            <span style="font-family:'Electrolize',monospace;color:#888;font-size:11px;letter-spacing:2px;text-transform:uppercase;">Archives MIO</span>
+          </td></tr>
+          <!-- FR file 1 -->
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.025);">
+            <td style="padding:9px 0 9px 30px;">
+              <span style="font-family:'Electrolize',monospace;color:#2a2a2a;font-size:7px;">▶</span>
+            </td>
+            <td style="padding:9px 8px;">
+              <svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
+              <a class="internal-link" href="FR - ARCHIVES OF HOUSE TASH-MURKON" style="font-family:'Rajdhani',sans-serif;color:#ccc;font-size:13px;text-decoration:none;">FR — ARCHIVES OF HOUSE TASH-MURKON</a>
+            </td>
+            <td style="padding:9px 14px;text-align:right;white-space:nowrap;">
+              <span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid #ff4d4d;color:#ff4d4d;">CLASSIFIÉ</span>
+              <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:#333;letter-spacing:1px;margin-left:12px;">2.4 TB</span>
+            </td>
+          </tr>
+          <!-- FR file 2 -->
+          <tr>
+            <td style="padding:9px 0 9px 30px;">
+              <span style="font-family:'Electrolize',monospace;color:#2a2a2a;font-size:7px;">▶</span>
+            </td>
+            <td style="padding:9px 8px;">
+              <svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
+              <a class="internal-link" href="FR - Journal de bord 02-YC128" style="font-family:'Rajdhani',sans-serif;color:#ccc;font-size:13px;text-decoration:none;">FR — Journal de bord 02-YC128</a>
+            </td>
+            <td style="padding:9px 14px;text-align:right;white-space:nowrap;">
+              <span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:1px 5px;border:1px solid #D4AF37;color:#D4AF37;">RESTREINT</span>
+              <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:#333;letter-spacing:1px;margin-left:12px;">02 / YC128</span>
+            </td>
+          </tr>
+
+        </tbody></table>
+      </td>
+    </tr>
+
+  </tbody></table>
   <div class="eve-divider"><div class="eve-divider-icon"></div></div>
 
   <!-- KILLBOARD -->
