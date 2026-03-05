@@ -174,6 +174,7 @@ body, .markdown-preview-view, .markdown-rendered {
 /* INDEX ROWS — styles appliqués sur les <tr> directement */
 .eve-index-table { width: 100%; border-collapse: collapse; }
 .eve-index-table td { border-left: none !important; border-right: none !important; border-top: none !important; }
+.eve-index-table, .eve-index-table tr, .eve-index-table td { border-color: transparent; }
 .eve-index-table tr.lang-hdr td { background: linear-gradient(90deg,rgba(212,175,55,0.12),rgba(212,175,55,0.02) 60%,transparent); padding: 7px 14px; border-bottom: 1px solid rgba(212,175,55,0.2); border-top: none; border-left: none; border-right: none; font-family: var(--font-ui); color: var(--eve-gold); font-size: 10px; letter-spacing: 3px; }
 .eve-index-table tr.folder-hdr td { padding: 6px 14px 6px 20px; border-bottom: 1px solid #1a1a1e; border-top: none; border-left: none; border-right: none; background: rgba(255,255,255,0.006); font-family: var(--font-ui); color: #888; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
 .eve-index-table tr.file-row td { padding: 9px 8px; border-bottom: 1px solid rgba(255,255,255,0.025); border-top: none; border-left: none; border-right: none; }
@@ -307,8 +308,8 @@ body, .markdown-preview-view, .markdown-rendered {
        ═══════════════════════════════════ -->
   <div class="eve-section-label">Biometric Data</div>
   <div style="border:1px solid #2a2a2e;border-top:2px solid #8B6914;background:rgba(0,0,0,0.55);margin-bottom:24px;overflow:hidden;">
-    <table width="100%" border="0" cellpadding="0" cellspacing="0">
-      <tr>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+      <tr style="border:none;">
         <td width="190" style="padding:0;vertical-align:top;border-right:1px solid #1e1a0a;">
           <div style="position:relative;width:190px;height:190px;overflow:hidden;background:#000;">
             <div class="scan-line"></div>
@@ -342,26 +343,26 @@ body, .markdown-preview-view, .markdown-rendered {
       <tr class="folder-hdr"><td colspan="3"><span style="font-size:8px;color:#555;margin-right:6px;">▼</span><svg width="12" height="12" viewBox="0 0 13 13" style="vertical-align:middle;margin-right:6px;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>MIO Archives</td></tr>
       <tr class="file-row">
         <td style="width:30px;padding-left:30px;"><span style="font-size:7px;color:#2a2a2a;">▶</span></td>
-        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg><a href="/en-archives-of-house-tash-murkon/" class="internal-link">EN — ARCHIVES OF HOUSE TASH-MURKON</a></td>
-        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span class="eve-badge-red">CLASSIFIED</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">2.4 TB</span></td>
+        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg><a href="/notes/en-archives-of-house-tash-murkon">EN — ARCHIVES OF HOUSE TASH-MURKON</a></td>
+        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:2px 6px;border:1px solid #ff4d4d;color:#ff4d4d;white-space:nowrap;">CLASSIFIED</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">2.4 TB</span></td>
       </tr>
       <tr class="file-row">
         <td style="width:30px;padding-left:30px;"><span style="font-size:7px;color:#2a2a2a;">▶</span></td>
-        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg><a href="/en-logbook-02-yc128/" class="internal-link">EN — Logbook 02-YC128</a></td>
-        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span class="eve-badge-gold">RESTRICTED</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">02 / YC128</span></td>
+        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg><a href="/notes/en-logbook-02-yc128">EN — Logbook 02-YC128</a></td>
+        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:2px 6px;border:1px solid #D4AF37;color:#D4AF37;white-space:nowrap;">RESTRICTED</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">02 / YC128</span></td>
       </tr>
       <!-- FR -->
       <tr class="lang-hdr lang-sep"><td colspan="3"><span style="display:inline-block;width:8px;height:8px;background:#8B6914;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);margin-right:8px;vertical-align:middle;"></span>SYS.LANG // FRANÇAIS</td></tr>
       <tr class="folder-hdr"><td colspan="3"><span style="font-size:8px;color:#555;margin-right:6px;">▼</span><svg width="12" height="12" viewBox="0 0 13 13" style="vertical-align:middle;margin-right:6px;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>Archives MIO</td></tr>
       <tr class="file-row">
         <td style="width:30px;padding-left:30px;"><span style="font-size:7px;color:#2a2a2a;">▶</span></td>
-        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg><a href="/fr-archives-of-house-tash-murkon/" class="internal-link">FR — ARCHIVES OF HOUSE TASH-MURKON</a></td>
-        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span class="eve-badge-red">CLASSIFIÉ</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">2.4 TB</span></td>
+        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg><a href="/notes/fr-archives-of-house-tash-murkon">FR — ARCHIVES OF HOUSE TASH-MURKON</a></td>
+        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:2px 6px;border:1px solid #ff4d4d;color:#ff4d4d;white-space:nowrap;">CLASSIFIÉ</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">2.4 TB</span></td>
       </tr>
       <tr class="file-row">
         <td style="width:30px;padding-left:30px;"><span style="font-size:7px;color:#2a2a2a;">▶</span></td>
-        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg><a href="/fr-journal-de-bord-02-yc128/" class="internal-link">FR — Journal de bord 02-YC128</a></td>
-        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span class="eve-badge-gold">RESTREINT</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">02 / YC128</span></td>
+        <td><svg width="13" height="13" viewBox="0 0 14 14" style="vertical-align:middle;margin-right:8px;"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg><a href="/notes/fr-journal-de-bord-02-yc128">FR — Journal de bord 02-YC128</a></td>
+        <td style="text-align:right;padding-right:14px;white-space:nowrap;"><span style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:1.5px;padding:2px 6px;border:1px solid #D4AF37;color:#D4AF37;white-space:nowrap;">RESTREINT</span> <span class="eve-meta" style="display:inline-block;margin-left:10px;">02 / YC128</span></td>
       </tr>
     </table>
   </div>
