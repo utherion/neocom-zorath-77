@@ -54,7 +54,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">
 <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #D4AF37;"></div>
 <div style="color: #888; font-family: monospace; font-size: 11px; letter-spacing: 3px; margin-bottom: 5px;">> SYS.ENTRY // CHRONICLE_DATA_01</div>
-<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">I.</span>The Armoured Oath and Thearchic Oversight</div>
+<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">I.</span>The Receptacle Complies</div>
 </div>
 
 <p>Physically, this organic vessel functions with glacial precision. When I walk the corridors of Tash-Murkon Prime, drawn from the hydrostatic fluid of my pod, I impose upon myself an absolute impassivity. I speak little; my answers are brief — the silent discipline expected of a soldier of my lineage. And yet beneath this flesh, I feel like a stranger. The autonomy of my new status is nothing but a mirage. My true existence only resumes when the glass sarcophagus closes around me once more and my mind merges with the very structure of my ship.</p>
@@ -69,7 +69,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">
 <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #D4AF37;"></div>
 <div style="color: #888; font-family: monospace; font-size: 11px; letter-spacing: 3px; margin-bottom: 5px;">> SYS.ENTRY // CHRONICLE_DATA_02</div>
-<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">II.</span>The Lari Fracture // Anatomy of a Failure</div>
+<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">II.</span>Anatomy of a Failure</div>
 </div>
 
 <p style="font-weight: bold; color: #fff;">On 21.02.YC128, in the void of the Lari system, my ship was destroyed.</p>
@@ -82,7 +82,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">
 <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #D4AF37;"></div>
 <div style="color: #888; font-family: monospace; font-size: 11px; letter-spacing: 3px; margin-bottom: 5px;">> SYS.ENTRY // CHRONICLE_DATA_03</div>
-<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">III.</span>The Liturgy of Ordeal // The Axis and the Abyss</div>
+<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">III.</span>Forty-Three Iterations</div>
 </div>
 
 <p>To cauterise this shame, Delegate Atzi broke the seals and offered me Triglavian data filaments. Immersion into Abyssal Deadspace is a violation of the laws of Creation — a heresy where the Empress's Light comes to die. The perfect crucible in which to temper one's faith. I docked my pod into a Punisher combat frigate.</p>
@@ -93,7 +93,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">
 <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #D4AF37;"></div>
 <div style="color: #888; font-family: monospace; font-size: 11px; letter-spacing: 3px; margin-bottom: 5px;">> SYS.ENTRY // CHRONICLE_DATA_04</div>
-<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">IV.</span>Horizon of the Evocation // Toward Canonisation</div>
+<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #D4AF37; margin-right: 10px;">IV.</span>Toward Canonization</div>
 </div>
 
 <p>Lari reminded me of a brutal truth: my humanity dissolves a little further with every immersion. Beneath the pressure of the fluid, whatever remains of the man fades away. And that is precisely what I seek. I do not ask for forgiveness for my existence. I seek recognition of my divine nature. I will redeem my place through blood and steel until the last echo of chaos is smothered beneath the silence of my perfection.</p>
@@ -102,7 +102,7 @@ body, .markdown-preview-view, .markdown-rendered { background-color: #030304 !im
 <div style="margin: 50px 0 25px 0; border-top: 1px solid #444; border-bottom: 1px solid #111; background: linear-gradient(90deg, rgba(125, 249, 255, 0.08) 0%, rgba(0,0,0,0) 50%); padding: 15px 20px; position: relative;">
 <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #7DF9FF;"></div>
 <div style="color: #888; font-family: monospace; font-size: 11px; letter-spacing: 3px; margin-bottom: 5px;">> SYS.ENTRY // CHRONICLE_DATA_05</div>
-<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #7DF9FF; margin-right: 10px;">V.</span>The Devil's Paradox // The Seed of the Anomaly</div>
+<div style="color: #E5E4E2; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin: 0;"><span style="color: #7DF9FF; margin-right: 10px;">V.</span>The Seed of the Anomaly</div>
 </div>
 
 <div style="display: flex; justify-content: center; margin: 40px 0;">
