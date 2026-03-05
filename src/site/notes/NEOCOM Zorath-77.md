@@ -390,13 +390,12 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
     <img src="https://image.eveonline.com/Corporation/1000082_128.png" width="52" style="filter:drop-shadow(0 0 12px #ff0000);flex-shrink:0;">
   </div>
 
-  <!-- BLOC PRINCIPAL : PROFIL GAUCHE + INDEX DROITE -->
-  <div class="eve-two-col" style="display:flex;gap:20px;align-items:flex-start;margin-bottom:28px;">
+  <!-- BLOC PRINCIPAL : PROFIL + INDEX -->
+  <table style="width:100%;border-collapse:collapse;margin-bottom:28px;"><tbody><tr>
 
-    <!-- COLONNE GAUCHE : Portrait + Bio -->
-    <div style="width:180px;flex-shrink:0;flex-grow:0;">
+    <td style="vertical-align:top;width:192px;padding-right:20px;border:none;">
       <div class="eve-section-label" style="margin-bottom:10px;">Biometric Data</div>
-      <div class="eve-profile-frame" style="width:172px;margin-bottom:12px;overflow:hidden;">
+      <div class="eve-profile-frame" style="width:172px;margin-bottom:12px;">
         <div class="scan-line"></div>
         <img src="https://images.evetech.net/characters/2124123129/portrait?size=256" style="width:172px;height:172px;display:block;object-fit:cover;object-position:top;" alt="Ithika Zorath">
       </div>
@@ -407,10 +406,9 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
         <tr><td>House</td><td style="color:var(--eve-gold);font-family:var(--font-lore);font-size:11px;">Tash-Murkon</td></tr>
         <tr><td>Year</td><td style="color:#666;font-family:var(--font-data);font-size:11px;">YC128</td></tr>
       </table>
-    </div>
+    </td>
 
-    <!-- COLONNE DROITE : Index -->
-    <div style="flex:1;min-width:0;overflow:hidden;">
+    <td style="vertical-align:top;border:none;">
       <div class="eve-section-label" style="margin-bottom:12px;">Index Manager</div>
       <div class="eve-index-container">
 
@@ -426,9 +424,7 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
         <div class="eve-row">
           <div style="flex:2;display:flex;align-items:center;">
             <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
-
-[[ARCHIVES MIO/EN - ARCHIVES OF HOUSE TASH-MURKON\|EN - ARCHIVES OF HOUSE TASH-MURKON]]
-
+<a class="internal-link" href="EN - ARCHIVES OF HOUSE TASH-MURKON">EN - ARCHIVES OF HOUSE TASH-MURKON</a>
           </div>
           <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-red);">CLASSIFIED</span></div>
           <div style="flex:1;text-align:right;" class="eve-meta">2.4 TB</div>
@@ -436,9 +432,7 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
         <div class="eve-row">
           <div style="flex:2;display:flex;align-items:center;">
             <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
-
-[[ARCHIVES MIO/EN - Logbook 02-YC128\|EN - Logbook 02-YC128]]
-
+<a class="internal-link" href="EN - Logbook 02-YC128">EN - Logbook 02-YC128</a>
           </div>
           <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-gold);">RESTRICTED</span></div>
           <div style="flex:1;text-align:right;" class="eve-meta">02 / YC128</div>
@@ -456,9 +450,7 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
         <div class="eve-row">
           <div style="flex:2;display:flex;align-items:center;">
             <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
-
-[[ARCHIVES MIO/FR - ARCHIVES OF HOUSE TASH-MURKON\|FR - ARCHIVES OF HOUSE TASH-MURKON]]
-
+<a class="internal-link" href="FR - ARCHIVES OF HOUSE TASH-MURKON">FR - ARCHIVES OF HOUSE TASH-MURKON</a>
           </div>
           <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-red);">CLASSIFIÉ</span></div>
           <div style="flex:1;text-align:right;" class="eve-meta">2.4 TB</div>
@@ -466,18 +458,16 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
         <div class="eve-row">
           <div style="flex:2;display:flex;align-items:center;">
             <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
-
-[[ARCHIVES MIO/FR - Journal de bord 02-YC128\|FR - Journal de bord 02-YC128]]
-
+<a class="internal-link" href="FR - Journal de bord 02-YC128">FR - Journal de bord 02-YC128</a>
           </div>
           <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-gold);">RESTREINT</span></div>
           <div style="flex:1;text-align:right;" class="eve-meta">02 / YC128</div>
         </div>
 
       </div>
-    </div>
+    </td>
 
-  </div><!-- /two-col -->
+  </tr></tbody></table><!-- /bloc principal -->
 
   <!-- SÉPARATEUR -->
   <div class="eve-divider"><div class="eve-divider-icon"></div></div>
