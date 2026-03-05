@@ -396,11 +396,9 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
     <!-- COLONNE GAUCHE : Portrait + Bio -->
     <div style="width:180px;flex-shrink:0;flex-grow:0;">
       <div class="eve-section-label" style="margin-bottom:10px;">Biometric Data</div>
-      <div class="eve-profile-frame" style="width:172px;overflow:hidden;margin-bottom:12px;">
+      <div class="eve-profile-frame" style="width:172px;margin-bottom:12px;overflow:hidden;">
         <div class="scan-line"></div>
-
-![Portrait.jpg](/img/user/Images/Portrait.jpg)
-
+        <img src="https://images.evetech.net/characters/2124123129/portrait?size=256" style="width:172px;height:172px;display:block;object-fit:cover;object-position:top;" alt="Ithika Zorath">
       </div>
       <table class="eve-table" style="width:172px;">
         <tr><td>Callsign</td><td>Ithika Zorath</td></tr>
