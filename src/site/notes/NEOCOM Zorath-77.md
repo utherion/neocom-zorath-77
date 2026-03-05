@@ -278,6 +278,17 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 <div style="flex: 1; color: #666; font-size: 11px; letter-spacing: 2px; text-align: right;">TAILLE: 2.4 TB</div>
 </div>
 
+<div class="eve-row">
+<div style="flex: 2; display: flex; align-items: center; gap: 12px;">
+<span style="color: #D4AF37; font-size: 16px; filter: drop-shadow(0 0 5px #D4AF37);">📓</span>
+
+[[FR - Journal de bord 02-YC128\|FR - Journal de bord 02-YC128]]
+
+</div>
+<div style="flex: 1; color: #666; font-size: 11px; letter-spacing: 2px;">SÉC: <span style="color: #D4AF37;">RESTREINT</span></div>
+<div style="flex: 1; color: #666; font-size: 11px; letter-spacing: 2px; text-align: right;">02 / YC128</div>
+</div>
+
 </div>
 
 <h4 style="color: #555; border-bottom: 1px solid #333; padding-bottom: 10px; margin: 0 0 20px 0; font-size: 14px; letter-spacing: 3px; text-transform: uppercase;">External Live Feeds</h4>
@@ -292,4 +303,4 @@ a.internal-link:hover { color: #7DF9FF !important; text-shadow: 0 0 8px #7DF9FF;
 </a>
 </div>
 
-</div> </div> </div> 
+</div> </div> </div>
