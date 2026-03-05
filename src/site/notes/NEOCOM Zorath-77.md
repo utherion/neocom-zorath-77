@@ -390,84 +390,117 @@ a.internal-link:hover { color: var(--eve-cyan) !important; text-shadow: 0 0 6px 
     <img src="https://image.eveonline.com/Corporation/1000082_128.png" width="52" style="filter:drop-shadow(0 0 12px #ff0000);flex-shrink:0;">
   </div>
 
-  <!-- BLOC PRINCIPAL : PROFIL + INDEX -->
-  <table style="width:100%;border-collapse:collapse;margin-bottom:28px;"><tbody><tr>
+  <!-- ═══ PROFIL HORIZONTAL (portrait gauche + données droite) ═══ -->
+  <div style="display:flex;gap:0;align-items:stretch;margin-bottom:24px;border:1px solid #1e1e22;background:rgba(0,0,0,0.5);">
 
-    <td style="vertical-align:top;width:192px;padding-right:20px;border:none;">
-      <div class="eve-section-label" style="margin-bottom:10px;">Biometric Data</div>
-      <div class="eve-profile-frame" style="width:172px;margin-bottom:12px;">
-        <div class="scan-line"></div>
-        <img src="https://images.evetech.net/characters/2124123129/portrait?size=256" style="width:172px;height:172px;display:block;object-fit:cover;object-position:top;" alt="Ithika Zorath">
+    <!-- Portrait grand format -->
+    <div style="position:relative;flex-shrink:0;width:220px;overflow:hidden;background:#000;">
+      <div class="scan-line"></div>
+      <img src="https://images.evetech.net/characters/2124123129/portrait?size=512"
+           style="width:220px;height:220px;display:block;object-fit:cover;object-position:top center;filter:brightness(0.9)contrast(1.05);">
+      <!-- Overlay gradient bas -->
+      <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to top,rgba(0,0,0,0.9),transparent);"></div>
+      <!-- Badge MIO bas gauche -->
+      <div style="position:absolute;bottom:8px;left:10px;font-family:var(--font-data);font-size:8px;color:var(--eve-gold);letter-spacing:2px;text-shadow:0 0 6px var(--eve-gold);">MIO // CAPSULEER</div>
+    </div>
+
+    <!-- Barre verticale dorée séparatrice -->
+    <div style="width:2px;background:linear-gradient(to bottom,transparent,var(--eve-gold-dim),transparent);flex-shrink:0;"></div>
+
+    <!-- Données biométriques -->
+    <div style="flex:1;padding:18px 22px;display:flex;flex-direction:column;justify-content:space-between;min-width:0;">
+      <div>
+        <div style="font-family:var(--font-lore);color:var(--eve-gold);font-size:10px;letter-spacing:4px;text-transform:uppercase;margin-bottom:14px;border-bottom:1px solid rgba(212,175,55,0.15);padding-bottom:8px;">Biometric Data</div>
+        <table style="width:100%;border-collapse:collapse;">
+          <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+            <td style="font-family:var(--font-ui);color:#555;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:7px 8px;width:40%;">Designation</td>
+            <td style="font-family:var(--font-body);color:#f0f0f0;font-size:16px;font-weight:600;padding:7px 8px;letter-spacing:1px;">Ithika Zorath</td>
+          </tr>
+          <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+            <td style="font-family:var(--font-ui);color:#555;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:7px 8px;">Bio-Tech</td>
+            <td style="font-family:var(--font-data);color:var(--eve-cyan);font-size:13px;padding:7px 8px;text-shadow:0 0 8px rgba(125,249,255,0.4);">Capsuleer <span style="color:#3a7a7e;">[ ACTIVE ]</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+            <td style="font-family:var(--font-ui);color:#555;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:7px 8px;">Origin</td>
+            <td style="font-family:var(--font-body);color:#aaa;font-size:14px;padding:7px 8px;">Nafomeh III — <span style="color:#666;font-size:12px;">Somi constellation</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid rgba(212,175,55,0.08);">
+            <td style="font-family:var(--font-ui);color:#555;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:7px 8px;">Allegiance</td>
+            <td style="font-family:var(--font-lore);color:var(--eve-gold);font-size:14px;padding:7px 8px;text-shadow:0 0 8px rgba(212,175,55,0.3);">House Tash-Murkon</td>
+          </tr>
+          <tr>
+            <td style="font-family:var(--font-ui);color:#555;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:7px 8px;">Timestamp</td>
+            <td style="font-family:var(--font-data);color:#444;font-size:12px;padding:7px 8px;letter-spacing:1px;">YC128.02</td>
+          </tr>
+        </table>
       </div>
-      <table class="eve-table" style="width:172px;">
-        <tr><td>Callsign</td><td>Ithika Zorath</td></tr>
-        <tr><td>Status</td><td style="color:var(--eve-cyan);font-family:var(--font-data);font-size:11px;">Capsuleer <span style="color:#4a8a8e;">[ ACTIVE ]</span></td></tr>
-        <tr><td>Origin</td><td style="color:#aaa;">Nafomeh III</td></tr>
-        <tr><td>House</td><td style="color:var(--eve-gold);font-family:var(--font-lore);font-size:11px;">Tash-Murkon</td></tr>
-        <tr><td>Year</td><td style="color:#666;font-family:var(--font-data);font-size:11px;">YC128</td></tr>
-      </table>
-    </td>
-
-    <td style="vertical-align:top;border:none;">
-      <div class="eve-section-label" style="margin-bottom:12px;">Index Manager</div>
-      <div class="eve-index-container">
-
-        <div class="eve-lang-header">
-          <span class="eve-lang-icon"></span>
-          <span class="eve-lang-header-text">SYS.LANG // ENGLISH</span>
-        </div>
-        <div class="eve-folder-header">
-          <span class="eve-folder-chevron">▼</span>
-          <svg width="12" height="12" viewBox="0 0 13 13" style="flex-shrink:0;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>
-          <span class="eve-folder-name">MIO Archives</span>
-        </div>
-        <div class="eve-row">
-          <div style="flex:2;display:flex;align-items:center;">
-            <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
-<a class="internal-link" href="EN - ARCHIVES OF HOUSE TASH-MURKON">EN - ARCHIVES OF HOUSE TASH-MURKON</a>
-          </div>
-          <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-red);">CLASSIFIED</span></div>
-          <div style="flex:1;text-align:right;" class="eve-meta">2.4 TB</div>
-        </div>
-        <div class="eve-row">
-          <div style="flex:2;display:flex;align-items:center;">
-            <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
-<a class="internal-link" href="EN - Logbook 02-YC128">EN - Logbook 02-YC128</a>
-          </div>
-          <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-gold);">RESTRICTED</span></div>
-          <div style="flex:1;text-align:right;" class="eve-meta">02 / YC128</div>
-        </div>
-
-        <div class="eve-lang-header" style="border-top:1px solid rgba(212,175,55,0.1);">
-          <span class="eve-lang-icon"></span>
-          <span class="eve-lang-header-text">SYS.LANG // FRANÇAIS</span>
-        </div>
-        <div class="eve-folder-header">
-          <span class="eve-folder-chevron">▼</span>
-          <svg width="12" height="12" viewBox="0 0 13 13" style="flex-shrink:0;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>
-          <span class="eve-folder-name">Archives MIO</span>
-        </div>
-        <div class="eve-row">
-          <div style="flex:2;display:flex;align-items:center;">
-            <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
-<a class="internal-link" href="FR - ARCHIVES OF HOUSE TASH-MURKON">FR - ARCHIVES OF HOUSE TASH-MURKON</a>
-          </div>
-          <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-red);">CLASSIFIÉ</span></div>
-          <div style="flex:1;text-align:right;" class="eve-meta">2.4 TB</div>
-        </div>
-        <div class="eve-row">
-          <div style="flex:2;display:flex;align-items:center;">
-            <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
-<a class="internal-link" href="FR - Journal de bord 02-YC128">FR - Journal de bord 02-YC128</a>
-          </div>
-          <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-gold);">RESTREINT</span></div>
-          <div style="flex:1;text-align:right;" class="eve-meta">02 / YC128</div>
-        </div>
-
+      <!-- Barre de sync bas -->
+      <div style="display:flex;align-items:center;gap:10px;margin-top:12px;padding-top:10px;border-top:1px solid #111;">
+        <div style="width:4px;height:4px;background:var(--eve-cyan);border-radius:50%;box-shadow:0 0 6px var(--eve-cyan);animation:pulseAlert 1.5s infinite;"></div>
+        <div style="font-family:var(--font-data);font-size:9px;color:#2a4a50;letter-spacing:2px;flex:1;">NEURAL_SYNC // NODE_77-A // SECURE</div>
+        <div style="font-family:var(--font-data);font-size:9px;color:var(--eve-gold-dim);letter-spacing:1px;">ID:2124123129</div>
       </div>
-    </td>
+    </div>
 
-  </tr></tbody></table><!-- /bloc principal -->
+  </div>
+
+  <!-- ═══ INDEX MANAGER (pleine largeur) ═══ -->
+  <div class="eve-section-label" style="margin-bottom:12px;">Index Manager</div>
+  <div class="eve-index-container" style="margin-bottom:0;">
+
+    <div class="eve-lang-header">
+      <span class="eve-lang-icon"></span>
+      <span class="eve-lang-header-text">SYS.LANG // ENGLISH</span>
+    </div>
+    <div class="eve-folder-header">
+      <span class="eve-folder-chevron">▼</span>
+      <svg width="12" height="12" viewBox="0 0 13 13" style="flex-shrink:0;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>
+      <span class="eve-folder-name">MIO Archives</span>
+    </div>
+    <div class="eve-row">
+      <div style="flex:2;display:flex;align-items:center;">
+        <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
+        <a class="internal-link" href="EN - ARCHIVES OF HOUSE TASH-MURKON">EN — ARCHIVES OF HOUSE TASH-MURKON</a>
+      </div>
+      <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-red);">CLASSIFIED</span></div>
+      <div style="flex:1;text-align:right;" class="eve-meta">2.4 TB</div>
+    </div>
+    <div class="eve-row">
+      <div style="flex:2;display:flex;align-items:center;">
+        <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
+        <a class="internal-link" href="EN - Logbook 02-YC128">EN — Logbook 02-YC128</a>
+      </div>
+      <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-gold);">RESTRICTED</span></div>
+      <div style="flex:1;text-align:right;" class="eve-meta">02 / YC128</div>
+    </div>
+
+    <div class="eve-lang-header" style="border-top:1px solid rgba(212,175,55,0.1);">
+      <span class="eve-lang-icon"></span>
+      <span class="eve-lang-header-text">SYS.LANG // FRANÇAIS</span>
+    </div>
+    <div class="eve-folder-header">
+      <span class="eve-folder-chevron">▼</span>
+      <svg width="12" height="12" viewBox="0 0 13 13" style="flex-shrink:0;"><path d="M1 3.5 L1 12 L12 12 L12 3.5 L6 3.5 L5 1.5 L1 1.5 Z" fill="#1a1a1e" stroke="#444" stroke-width="0.8"/></svg>
+      <span class="eve-folder-name">Archives MIO</span>
+    </div>
+    <div class="eve-row">
+      <div style="flex:2;display:flex;align-items:center;">
+        <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#0a1520" stroke="#7DF9FF" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#7DF9FF" stroke-width="0.6" opacity="0.6"/><line x1="3" y1="6" x2="8" y2="6" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#7DF9FF" stroke-width="0.6" opacity="0.4"/></svg>
+        <a class="internal-link" href="FR - ARCHIVES OF HOUSE TASH-MURKON">FR — ARCHIVES OF HOUSE TASH-MURKON</a>
+      </div>
+      <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-red);">CLASSIFIÉ</span></div>
+      <div style="flex:1;text-align:right;" class="eve-meta">2.4 TB</div>
+    </div>
+    <div class="eve-row">
+      <div style="flex:2;display:flex;align-items:center;">
+        <svg class="eve-file-icon" viewBox="0 0 14 14"><rect x="1" y="1" width="9" height="12" rx="0.5" fill="#12100a" stroke="#D4AF37" stroke-width="0.8"/><line x1="3" y1="4" x2="8" y2="4" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/><line x1="3" y1="6" x2="8" y2="6" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/><line x1="3" y1="8" x2="6" y2="8" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/></svg>
+        <a class="internal-link" href="FR - Journal de bord 02-YC128">FR — Journal de bord 02-YC128</a>
+      </div>
+      <div style="flex:1;"><span class="eve-badge" style="color:var(--eve-gold);">RESTREINT</span></div>
+      <div style="flex:1;text-align:right;" class="eve-meta">02 / YC128</div>
+    </div>
+
+  </div>
 
   <!-- SÉPARATEUR -->
   <div class="eve-divider"><div class="eve-divider-icon"></div></div>
